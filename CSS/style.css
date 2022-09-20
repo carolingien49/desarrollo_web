@@ -1,0 +1,403 @@
+/* Estilo General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: unset;
+}
+ul,
+ol {
+  font-style: normal;
+  list-style: none;
+}
+@font-face {
+  font-family: "Trocchi";
+  src: url("../fonts/Trocchi/Trocchi-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lato Light";
+  src: url("../fonts/Lato/Lato-light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Lato Regular";
+  src: url("../fonts/Lato/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lato Italic";
+  src: url("../fonts/Lato/Lato-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lato Bold";
+  src: url("../fonts/Lato/Lato-bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* Fin estilo General */
+/* Estilo MAIN HEADER */
+.main__header {
+  background-color: #5683c3;
+  color: white;
+  padding: 15px;
+}
+.main__header__nav {
+  text-align: end;
+  display: inline;
+}
+.main__header__nav a {
+  color: white;
+  font-style: normal;
+  font-size: 14px;
+  font-family: "Lato Light";
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 3px;
+}
+.main__header__nav a:hover {
+  transform: scale(1.5);
+  color: #d1e5feeb;
+}
+.main__header__nav a.active {
+  color: #b2cdf1d6;
+  font-style: normal;
+  font-family: "Lato Regular";
+  font-weight: 400;
+}
+.main__principal {
+  background-image: url(../img/hamaca_mirror.jpg);
+  height: 650px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* me gusta contain también */
+  max-width: 100%;
+}
+.main__principal__wrapper {
+  text-align: start;
+  padding-left: 50px;
+}
+.main__principal__wrapper--title {
+  color: #0a4091;
+  font-style: normal;
+  font-size: 305%; /* recordar 1 rem=16px - usar rem o em */
+  font-family: "Trocchi";
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+.main__principal__wrapper--text {
+  color: #092c5f;
+  font-style: normal;
+  font-size: 125%;
+  font-family: "Lato Regular";
+  font-weight: 400;
+  padding-bottom: 3rem;
+}
+.main__principal__wrapper--cta a {
+  font-style: normal;
+  font-size: 1.2rem;
+  font-family: "Lato Regular";
+  text-decoration: none;
+  color: #025ddc;
+  letter-spacing: 5px;
+}
+.main__principal__wrapper--cta a:hover {
+  color: #3e8efe;
+}
+/* Fin MAIN HEADER */
+/* Estilo MANIFIESTO */
+.manifiesto {
+  background-color: #e0ebff;
+  color: black;
+  height: min-content(600px, 240%);
+  padding: 4%;
+}
+.manifiesto__wrapper {
+  width: min(750px, 80%);
+  margin: auto;
+  text-align: center;
+}
+.manifiesto__wrapper--slogan1 {
+  font-style: normal;
+  font-size: 240%;
+  font-family: "Trocchi";
+  margin: 0 5%;
+  color: #025ddc;
+}
+.manifiesto__wrapper--slogan2 {
+  color: #104691;
+  font-style: normal;
+  font-size: 3rem;
+  font-family: "Trocchi";
+}
+.manifiesto__wrapper--paragraph {
+  color: #4e555e;
+  font-style: normal;
+  font-size: 120%;
+  font-family: "Lato Regular";
+  padding: 2.5rem;
+}
+.manifiesto__wrapper--download {
+  background-color: white;
+  width: 12rem;
+  border-radius: 18px;
+  margin: auto;
+  padding: 0.3rem;
+}
+.manifiesto__wrapper--download:hover {
+  background-color: rgba(255, 255, 255, 0.485);
+}
+.manifiesto__wrapper--download a {
+  color: #3a8cff;
+  font-style: normal;
+  font-size: 0.9rem;
+  font-family: "Lato Bold";
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.manifiesto__wrapper--download a:hover {
+  color: #025ddcdc;
+}
+.manifiesto__wrapper--slogan3 {
+  color: #025ddc;
+  font-style: normal;
+  font-size: 2rem;
+  font-family: "Trocchi";
+  padding-top: 2rem;
+}
+/* Fin MANIFIESTO */
+/* Estilo NOS APOYAN */
+.nos__apoyan {
+  background-color: white;
+  height: min-content(216px, 200%);
+  width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.nos__apoyan__title {
+  color: #104691;
+  font-style: normal;
+  font-size: 1.4rem;
+  font-family: "Lato Regular";
+  font-weight: 400;
+  text-align: center;
+  padding-top: 8%;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+.nos__apoyan__wrapper {
+  width: 600px;
+  margin: 0 auto;
+  display: inline-block;
+}
+.nos__apoyan__wrapper-mcb {
+  width: 190px;
+  display: inline;
+  margin: 0 auto;
+  padding-inline: 5%;
+}
+.nos__apoyan__wrapper-aluba {
+  width: 180px;
+  display: inline;
+  margin: 0 auto;
+  padding-inline: 5%;
+}
+.nos__apoyan__wrapper-fita {
+  width: 180px;
+  display: inline;
+  margin: 0 auto;
+  padding-inline: 5%;
+}
+/* Fin NOS APOYAN */
+/* Estilo TESTIMONIOS */
+.testimonio {
+  background-image: url(../img/manos.jpg);
+  height: min-content(793, 120%);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  padding: 30px;
+  overflow: hidden;
+}
+.testimonio_wrapper {
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.testimonio__wrapper__card {
+  background: rgb(203, 217, 241);
+  background: linear-gradient(
+    6deg,
+    rgba(203, 217, 241, 1) 0%,
+    rgba(255, 255, 255, 0.4457983877144608) 100%
+  );
+  width: 400px;
+  height: min-content (200px, 120%);
+  border-radius: 30px;
+  margin: 30px auto;
+  padding: 40px;
+  color: #4e555e;
+}
+.testimonio__wrapper__card-title {
+  color: #025ddc;
+  font-style: normal;
+  font-size: 1.4rem;
+  font-family: "Lato Bold";
+  font-weight: 700;
+  text-align: center;
+  padding: 10pt;
+}
+.testimonio__wrapper__card-paragraph {
+  font-style: normal;
+  font-size: 1.3rem;
+  font-family: "Lato italic";
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  line-height: 1.4;
+  text-align: center;
+}
+/* Fin TESTIMONIOS */
+/* Estilo SUMATE */
+.sumate {
+  background-color: #e0ebff;
+  height: 640px;
+  padding: 30px;
+  overflow: scroll;
+}
+.sumate__wrapper {
+  width: 400px;
+  margin-left: 30px;
+}
+.sumate__wrapper-title {
+  color: #025ddc;
+  font-style: normal;
+  font-size: 2rem;
+  font-family: "Trocchi";
+  padding: 2rem 0 1.3rem;
+}
+.sumate__wrapper-paragraph {
+  color: #4e555e;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-family: "Lato Regular";
+  font-weight: 400;
+  line-height: 1.4;
+  padding-bottom: 2rem;
+}
+.sumate__formulario {
+  color: #4e555e;
+  padding-left: 30px;
+}
+.sumate__formulario-label {
+  margin: 4px 0 ;
+  padding-bottom: 30px;
+}
+.sumate__formulario-input {
+  margin-bottom: 16px;
+  border: 1px;
+  border-style: solid;
+  border-color: #b6d3fc;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  padding-left: 8px;
+  padding-top: 7px;
+  padding-bottom: 3px;
+  color: #02275e;
+  background-color: #edf3fd;
+}
+.sumate__formulario-btn {
+  background-color: white;
+  width: 70px;
+  height: 32px;
+  border-radius: 18px;
+  margin: 20px 25px 0 0;
+  border: none;
+  color: #025ddc;
+  font-family: "Lato-regular";
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+.sumate-img {
+  height: 350px;
+  margin: 30px;
+}
+/* Fin SUMATE */
+/* Estilo FOOTER */
+.footer {
+  background-color: #5683c3;
+  color: white;
+  padding: 30px 0 0 50px;
+}
+.footer__datos-contacto {
+  font-size: 1.05rem;
+  font-family: "Lato Light";
+  font-weight: 300;
+  line-height: 1.6rem;
+  letter-spacing: 1px;
+}
+.footer__legales {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-family: "Lato Light";
+  font-weight: 300;
+  font-size: 13px;
+}
+/* Fin FOOTER */
+/* Estilo PAGINA CONTACTO */
+.contacto {
+  background-color: #e0ebff;
+}
+.contacto__form {
+  padding: 30px;
+}
+.contacto__formulario__input {
+  margin: 17px 0 3px;
+  width: 300px;
+  color: #4e555e;
+  font-size: 13px;
+  height: 30px;
+  border:#b6d3fc solid 1px;
+  padding-left: 6px;
+  letter-spacing: 0.5px;
+}
+.contacto__formulario__input-textarea {
+  margin: 17px 0 3px;
+  width: 300px;
+  font-size: 13px;
+  border:#b6d3fc solid 1px;
+  padding-left: 6px;
+  letter-spacing: 0.5px;
+}
+.contacto__formulario-label {
+  font-family: "Lato-Regular";
+  font-weight: 400;
+  font-size: 15px;
+  color: #1a66d0;
+  letter-spacing: 0.5px;
+  padding-left: 5px;
+}
+.contacto__formulario-btn {
+  background-color: white;
+  width: 80px;
+  height: 32px;
+  border-radius: 18px;
+  margin: 20px 25px 0 0;
+  border: none;
+  color: #025ddc;
+  font-family: "Lato-bold";
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  font-size: 15px;
+}
