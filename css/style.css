@@ -49,11 +49,19 @@ a {
 .main__header {
   background-color: #5683c3;
   color: white;
+  display: flex;
+  width: 100%;
   padding: 15px;
+  align-items: center;
+}
+.main__header nav {
+  width: 70%;
 }
 .main__header__nav {
-  text-align: end;
-  display: inline;
+  display: flex;
+  width: 100%;
+  padding-left: 50px;
+  padding-top: 25px;
 }
 .main__header__nav a {
   color: white;
@@ -61,11 +69,13 @@ a {
   font-size: 14px;
   font-family: "Lato Light";
   font-weight: 300;
-  line-height: 30px;
   letter-spacing: 3px;
+  display: flex;
+  width: 10%;
+  margin: 0 10px;
 }
 .main__header__nav a:hover {
-  transform: scale(1.5);
+  transform: scale(1.08);
   color: #d1e5feeb;
 }
 .main__header__nav a.active {
@@ -182,9 +192,7 @@ a {
 .nos__apoyan {
   background-color: white;
   height: min-content(216px, 200%);
-  width: 600px;
-  margin: 0 auto;
-  overflow: hidden;
+  width: 100%
 }
 .nos__apoyan__title {
   color: #104691;
@@ -192,33 +200,18 @@ a {
   font-size: 1.4rem;
   font-family: "Lato Regular";
   font-weight: 400;
-  text-align: center;
-  padding-top: 8%;
+  padding-top: 3%;
   letter-spacing: 5px;
   word-spacing: 10px;
+  text-align: center;
 }
 .nos__apoyan__wrapper {
-  width: 600px;
-  margin: 0 auto;
-  display: inline-block;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
-.nos__apoyan__wrapper-mcb {
-  width: 190px;
-  display: inline;
-  margin: 0 auto;
-  padding-inline: 5%;
-}
-.nos__apoyan__wrapper-aluba {
-  width: 180px;
-  display: inline;
-  margin: 0 auto;
-  padding-inline: 5%;
-}
-.nos__apoyan__wrapper-fita {
-  width: 180px;
-  display: inline;
-  margin: 0 auto;
-  padding-inline: 5%;
+.nos__apoyan__wrapper img {
+  width: 120px;
 }
 /* Fin NOS APOYAN */
 /* Estilo TESTIMONIOS */
@@ -274,10 +267,14 @@ a {
   background-color: #e0ebff;
   height: 640px;
   padding: 30px;
-  overflow: scroll;
+  display: flex;
+  width: 100%;
+  justify-content:space-around;
 }
 .sumate__wrapper {
-  width: 400px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
   margin-left: 30px;
 }
 .sumate__wrapper-title {
@@ -295,14 +292,11 @@ a {
   font-weight: 400;
   line-height: 1.4;
   padding-bottom: 2rem;
+  width: 100%;
 }
 .sumate__formulario {
   color: #4e555e;
-  padding-left: 30px;
-}
-.sumate__formulario-label {
-  margin: 4px 0 ;
-  padding-bottom: 30px;
+  width: 100%;
 }
 .sumate__formulario-input {
   margin-bottom: 16px;
@@ -316,6 +310,7 @@ a {
   padding-bottom: 3px;
   color: #02275e;
   background-color: #edf3fd;
+  width: 100%;
 }
 .sumate__formulario-btn {
   background-color: white;
@@ -329,8 +324,8 @@ a {
   font-weight: 400;
   letter-spacing: 0.3px;
 }
-.sumate-img {
-  height: 350px;
+.sumate img {
+  width: 100%;
   margin: 30px;
 }
 /* Fin SUMATE */
@@ -368,7 +363,7 @@ a {
   color: #4e555e;
   font-size: 13px;
   height: 30px;
-  border:#b6d3fc solid 1px;
+  border: #b6d3fc solid 1px;
   padding-left: 6px;
   letter-spacing: 0.5px;
 }
@@ -376,7 +371,7 @@ a {
   margin: 17px 0 3px;
   width: 300px;
   font-size: 13px;
-  border:#b6d3fc solid 1px;
+  border: #b6d3fc solid 1px;
   padding-left: 6px;
   letter-spacing: 0.5px;
 }
