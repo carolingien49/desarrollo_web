@@ -48,20 +48,20 @@ a {
 /* Estilo MAIN HEADER */
 #main__icon__wrapper {
   position: fixed;
-  top: 50vh;
-  left: 0;
-  height: 120px;
-  display:flex;
-  flex-direction: column;
+  display: flex;
+  width: 39px;
+  height: 126px;
+  align-items: space-between;
+  flex-wrap: wrap;
+  top: 395px;
 }
 .main__social__icons__links {
-  display: block;
-  color: white;
-  background: rgba(51, 92, 130, 0.4);
+  display:block;
+  color: rgba(255,255,255,0.8);
+  background: rgba(51, 92, 130, 0.1);
   height: 40px;
   width: 39px;
   text-align: center;
-  margin: 2px 0;
   padding-top: 8px;
 }
 .main__header {
@@ -112,7 +112,7 @@ a {
 }
 .main__principal__wrapper {
   text-align: start;
-  padding-left: 50px;
+  padding-left: 85px;
 }
 .main__principal__wrapper--title {
   color: #0a4091;
@@ -226,7 +226,7 @@ a {
   text-align: center;
 }
 .nos__apoyan__wrapper {
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
