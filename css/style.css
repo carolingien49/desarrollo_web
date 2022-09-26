@@ -199,11 +199,18 @@ a {
   color: #025ddcdc;
 }
 .manifiesto__wrapper--slogan3 {
-  color: #025ddc;
+  color: #104691;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 220%;
   font-family: "Trocchi";
   padding-top: 2rem;
+}
+.manifiesto__wrapper--slogan4 {
+  color: #025ddc;
+  font-style: normal;
+  font-size: 2.3rem;
+  font-family: "Trocchi";
+  margin-top: -0.8rem;
 }
 /* Fin MANIFIESTO */
 /* Estilo NOS APOYAN */
