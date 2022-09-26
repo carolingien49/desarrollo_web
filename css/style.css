@@ -56,8 +56,8 @@ a {
   top: 395px;
 }
 .main__social__icons__links {
-  display:block;
-  color: rgba(255,255,255,0.8);
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
   background: rgba(51, 92, 130, 0.1);
   height: 40px;
   width: 39px;
@@ -226,10 +226,12 @@ a {
   text-align: center;
 }
 .nos__apoyan__wrapper {
-  width: 100vw;
+  width: 60vw;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  align-self: center;
+  margin: auto;
 }
 .nos__apoyan__wrapper img {
   width: 120px;
