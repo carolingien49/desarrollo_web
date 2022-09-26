@@ -291,10 +291,15 @@ a {
   background-color: #e0ebff;
   width: 100vw;
   padding: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  gap: 30px;
+  display: grid;
+  grid-template-areas: 
+  "title . ."
+  "paragraph foto_nena ."
+  "form foto_nena .";
+  grid-template-rows: 1fr 1fr 2fr;
+  grid-template-columns: 1.5fr 1.5fr 0.5fr;
+  gap: 0px 45px;
+  height: 600px;
 }
 .sumate__wrapper {
   display: flex;
@@ -307,6 +312,7 @@ a {
   font-size: 2rem;
   font-family: "Trocchi";
   padding: 2rem 0 1.3rem;
+  grid-area: title;
 }
 .sumate__wrapper-paragraph {
   color: #4e555e;
@@ -316,10 +322,12 @@ a {
   font-weight: 400;
   line-height: 1.4;
   padding-bottom: 2rem;
-  width: 100%;
+  width: 460px;
+  grid-area: paragraph;
 }
 .sumate__formulario {
   color: #4e555e;
+  grid-area: form;
 }
 .sumate__formulario-input {
   margin-bottom: 16px;
@@ -333,7 +341,7 @@ a {
   padding-bottom: 3px;
   color: #02275e;
   background-color: #edf3fd;
-  width: 100%;
+  width: 460px;
 }
 .sumate__formulario-btn {
   background-color: white;
@@ -349,8 +357,8 @@ a {
 }
 .sumate img {
   width: 100%;
-  margin: 30px;
   overflow: hidden;
+  grid-area: foto_nena;
 }
 /* Fin SUMATE */
 /* Estilo FOOTER */
