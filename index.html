@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,30 +20,51 @@
     <title>iniciativa Armemos Equipo</title>
   </head>
   <body>
-    <header class="main__header">
-      <img
-        src="./img/logo_apaisado_blanco.svg"
-        alt="Armemos Equipo"
-        height="75px"
-      />
-      <nav>
-        <ul class="main__header__nav">
-          <li>
-            <a class="active" href="./index.html">INICIO</a>
-          </li>
-          <li>
-            <a href="./pages/desafio.html"> DESAFIO</a>
-          </li>
-          <li>
-            <a href="./pages/propuesta.html">PROPUESTA</a>
-          </li>
-          <li>
-            <a href="./pages/programas.html">PROGRAMAS</a>
-          </li>
-          <li>
-            <a href="./pages/contacto.html">CONTACTO</a>
-          </li>
-        </ul>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark navbar__background fixed-top"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href=".index.html">
+            <img
+              src="./img/logo_apaisado_blanco.svg"
+              alt="Armemos Equipo"
+              height="60px"
+            />
+          </a>
+          <button
+            class="navbar-toggler link-light border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav pt-3 ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/desafio.html"> DESAFIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/propuesta.html"> PROPUESTA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/programas.html"> PROGRAMAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html"> CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <!-- INICIO Social Icons -->
@@ -80,174 +101,84 @@
     <!-- INICIO Contenido Principal -->
     <main class="main__principal">
       <div class="main__principal__wrapper">
-        <h1 class="main__principal__wrapper--title">
-          Juntos por los chicas y los chicos
-        </h1>
-        <p class="main__principal__wrapper--text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          <br />
-          Eos eveniet, mollitia suscipit ab veritatis modi in.
-          <br />
-          Ducimus autem et officiis! Illo molestiae magnam assumenda
-          <br />
-          soluta vitae commodi in vel fugit!
-        </p>
-        <p class="main__principal__wrapper--cta">
-          <a href="./sumate.html">SUSCRIBITE</a>
-        </p>
+        <div class="container-fluid ps-5">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="main__principal__wrapper--title">
+                Juntos por las chicas y los chicos
+              </h1>
+              <p class="main__principal__wrapper--text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                eveniet, mollitia suscipit ab veritatis modi in. Ducimus autem
+                et officiis! Illo molestiae magnam assumenda soluta vitae
+                commodi in vel fugit!
+              </p>
+              <p class="main__principal__wrapper--cta">
+                <a href="./pages/contacto.html">SUSCRIBITE</a>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <!-- FIN Contenido Principal -->
-    <!-- INICIO Seccion MANIFIESTO -->
+    <!-- INICIO Seccion Manifiesto -->
     <section class="manifiesto">
-      <div class="manifiesto__wrapper">
-        <h3 class="manifiesto__wrapper--slogan1">Si no te gustas</h3>
-        <h2 class="manifiesto__wrapper--slogan2">te enfermás</h2>
-        <p class="manifiesto__wrapper--paragraph">
-          Prevención primaria de desórdenes alimentarios y otras manifestaciones
-          asociadas en preadolescentes.
-          <br />
-          Actividades para niños/as y adolescentes, familias y personal docente.
-        </p>
-        <p class="manifiesto__wrapper--download">
-          <a href="#"> MANIFIESTO</a>
-        </p>
-        <p class="manifiesto__wrapper--slogan3">
-          Porque se puede prevenir. 
-        </p>
-        <p class="manifiesto__wrapper--slogan4">
-          Porque es mejor que curar.
-        </p>
-        <!-- el pdf para descargar aún no existe. Me faltaría saber dónde alojarlo -->
-      </div>
-    </section>
-    <!-- FIN Seccion MANIFIESTO -->
-    <!-- INICIO Seccion NOS APOYAN -->
-    <section class="nos__apoyan">
-      <div>
-        <h3 class="nos__apoyan__title">NOS ACOMPAÑAN</h3>
-      </div>
-      <div class="nos__apoyan__wrapper">
-        <img src="./img/logo_MCB.png" alt="Mujeres por el Bien Común" />
-        <img src="./img/logo_CITPAD.png" alt="CITPAD" />
-        <img src="./img/logo_ALUBA.png" alt="ALUBA" />
-        <img src="./img/logo_FITA.png" alt="fundación FITA" />
-      </div>
-    </section>
-    <!-- FIN Seccion NOS APOYAN -->
-    <!-- INICIO Seccion TESTIMONIOS -->
-    <section class="testimonio">
-      <div>
-        <div class="testimonio__wrapper__card">
-          <h3 class="testimonio__wrapper__card-title">
-            Un cambio de perspectiva
-          </h3>
-          <p class="testimonio__wrapper__card-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            officiis doloremque tenetur soluta sit! Cumque, labore numquam
-            pariatur aut esse iusto blanditiis, distinctio minima, sed hic
-            reprehenderit!
-          </p>
-        </div>
-        <div class="testimonio__wrapper__card">
-          <h3 class="testimonio__wrapper__card-title">
-            Coraje, valentía y fortaleza
-          </h3>
-          <p class="testimonio__wrapper__card-paragraph">
-            Dolor sit amet consectetur adipisicing elit quibusdam lorem ipsum.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt,
-            numquam.
-          </p>
-        </div>
-        <div class="testimonio__wrapper__card">
-          <h3 class="testimonio__wrapper__card-title">
-            La vida después del TCA
-          </h3>
-          <p class="testimonio__wrapper__card-paragraph">
-            Lorem ipsum dolor sit amet. Ad, quibusdam consectetur adipisicing
-            elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Quibusdam explicabo temporibus natus perspiciatis repellat
-            perferendis.
-          </p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-5">
+            <img
+              class="manifiesto__img"
+              src="../img/frase_sm_mobile_2.png"
+              alt="texto manuscrito"
+            />
+          </div>
+          <div class="col-sm-7">
+            <div class="manifiesto__wrapper">
+              <h3 class="manifiesto__wrapper--slogan1">Si no te gustas</h3>
+              <h2 class="manifiesto__wrapper--slogan2">te enfermás</h2>
+              <p class="manifiesto__wrapper--paragraph pt-2">
+                No hay antídotos, pero si herramientas. La educación emocional
+                es una de ellas. De eso se trata. La prevención primaria de
+                desórdenes alimentarios y otras manifestaciones asociadas en
+                preadolescentes es un programa pensado para niños/as y
+                adolescentes, sus familias y quienes los acompañan en el entorno
+                escolar.
+              </p>
+              <p class="manifiesto__wrapper--paragraph">
+                El objetivo de la prevención consiste en reducir la aparición y
+                el desarrollo de estos trastornos en las chicas y los chicos.
+                Para ello, se busca eliminar los factores de riesgo que
+                favorecen el inicio y mantenimiento de estos trastornos; a
+                medida que se potencian los factores de protección que reducen
+                la posibilidad de padecerlos.
+              </p>
+              <p class="btn btn-light rounded-pill mt-3 mb-5">
+                <a href="#" class="manifiesto__wrapper__download">
+                  MANIFIESTO</a
+                >
+              </p>
+              <!-- el pdf para descargar aún no existe. Me faltaría saber dónde alojarlo -->
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <!-- FIN Seccion NOS TESTIMONIOS -->
-    <!-- INICIO Seccion SUMATE -->
-    <section class="sumate">
-      <div class="sumate__wrapper">
-        <h3 class="sumate__wrapper-title">Sumate al equipo</h3>
-        <p class="sumate__wrapper-paragraph">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque eius
-          tempore, nesciunt culpa ex eligendi cupiditate deserunt repudiandae
-          sunt quas.
-        </p>
-        <div class="sumate__formulario">
-          <form action="">
-            <div>
-              <input
-                class="sumate__formulario-input"
-                type="text"
-                name="name"
-                placeholder="Nombre completo"
-              />
-            </div>
-            <div>
-              <input
-                class="sumate__formulario-input"
-                type="text"
-                name="institución"
-                placeholder="Institución"
-              />
-            </div>
-            <div>
-              <input
-                class="sumate__formulario-input"
-                type="text"
-                name="cargo"
-                placeholder="Cargo"
-              />
-            </div>
-            <div>
-              <input
-                class="sumate__formulario-input"
-                type="email"
-                name="email"
-                placeholder="email"
-              />
-            </div>
-            <div>
-              <input
-                class="sumate__formulario-input"
-                type="teléfono"
-                name="teléfono"
-                placeholder="Teléfono"
-              />
-            </div>
-            <div>
-              <button type="submit" class="sumate__formulario-btn">
-                Enviar
-              </button>
-            </div>
-          </form>
+    <!-- FIN Seccion Manifiesto -->
+    <!-- INICIO Seccion Intermedia -->
+    <section class="intermedia">
+      <div class="container-fluid">
+        <div class="row h-100 text-center">
+          <div class="col-12">
+            <p class="intermedia__frase">
+            Porque se puede prevenir. Porque es mejor que curar.
+            </p>
+          </div>
         </div>
-      </div>
-      <div>
-        <img src="./img/sumate.jpg" alt="Sumate al equipo" />
       </div>
     </section>
-    <!-- FIN Seccion SUMATE -->
-    <!-- INICIO Footer -->
-    <footer class="footer">
-      <div class="footer__datos-contacto">
-        <p>info@armemosequipo.com.ar</p>
-        <p>(+54)911 6014 1638</p>
-        <div class="footer__legales">
-          <p>Copyright ©2022 Armemos Equipo</p>
-        </div>
-      </div>
-    </footer>
-    <!-- FIN FOOTER -->
+    <!-- FIN Seccion Intermedia -->
+
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"

@@ -1,4 +1,3 @@
-/* Estilo General */
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +8,9 @@ ul,
 ol {
   font-style: normal;
   list-style: none;
+}
+a {
+  text-decoration: none;
 }
 @font-face {
   font-family: "Trocchi";
@@ -40,12 +42,29 @@ ol {
   font-style: normal;
   font-weight: 700;
 }
-a {
-  text-decoration: none;
-  color: white;
+.navbar__background {
+  background-color: #5683c3;
+  padding-top: 9px;
 }
-/* Fin estilo General */
-/* Estilo MAIN HEADER */
+.nav-link {
+  color: white;
+  font-style: normal;
+  font-size: 13px;
+  font-family: "Lato Light";
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+.navbar-nav .nav-link.active {
+  color: #b2cdf1d6;
+  font-style: normal;
+  font-family: "Lato Regular";
+  font-weight: 400;
+}
+.navbar-nav .nav-link:hover {
+  transform: scale(1.08);
+  color: #d1e5feeb;
+}
+/* Estilo Social Icons */
 #main__icon__wrapper {
   position: fixed;
   display: flex;
@@ -64,71 +83,35 @@ a {
   text-align: center;
   padding-top: 8px;
 }
-.main__header {
-  background-color: #5683c3;
-  color: white;
-  display: grid;
-  width: 100vw;
-  grid-template-columns: 75px auto;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 35px 10px 20px;
+.main__social__icons__links:hover {
+  color: rgb(99, 149, 199);
 }
-.main__header__nav {
-  display: flex;
-  width: 100%;
-  padding-left: 50px;
-  padding-top: 43px;
-}
-.main__header__nav a {
-  color: white;
-  font-style: normal;
-  font-size: 14px;
-  font-family: "Lato Light";
-  font-weight: 300;
-  letter-spacing: 3px;
-  display: flex;
-  width: 10%;
-  margin: 0 10px;
-}
-.main__header__nav a:hover {
-  transform: scale(1.08);
-  color: #d1e5feeb;
-}
-.main__header__nav a.active {
-  color: #b2cdf1d6;
-  font-style: normal;
-  font-family: "Lato Regular";
-  font-weight: 400;
-}
+/* FIN Estilo Social Icons */
+/* Estilo Main Principal */
 .main__principal {
-  background-image: url(../img/hamaca_mirror.jpg);
-  height: 650px;
-  background-attachment: fixed;
+  background-image: url(../img/hamaca_vertical_3.jpg);
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; /* me gusta contain también */
+  background-size: cover;
   width: 100vw;
-}
-.main__principal__wrapper {
-  text-align: start;
-  padding-left: 85px;
 }
 .main__principal__wrapper--title {
   color: #0a4091;
   font-style: normal;
-  font-size: 305%; /* recordar 1 rem=16px - usar rem o em */
+  font-size: 32px;
   font-family: "Trocchi";
-  padding-top: 120px;
-  padding-bottom: 20px;
+  padding: 120px 0 20px 0;
+  width: 85vw;
 }
 .main__principal__wrapper--text {
   color: #092c5f;
   font-style: normal;
-  font-size: 125%;
+  font-size: 1rem;
   font-family: "Lato Regular";
   font-weight: 400;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
+  width: 80vw;
 }
 .main__principal__wrapper--cta a {
   font-style: normal;
@@ -141,299 +124,112 @@ a {
 .main__principal__wrapper--cta a:hover {
   color: #3e8efe;
 }
-/* Fin MAIN HEADER */
+/* FIN Estilo Main Principal */
 /* Estilo MANIFIESTO */
 .manifiesto {
   background-color: #e0ebff;
-  color: black;
-  height: min-content(600px, 240%);
-  padding: 4%;
-  width: 100vw;
+  height: auto;
+}
+.manifiesto__img {
+  size: 100vw;
+  width:90vw;
 }
 .manifiesto__wrapper {
-  width: min(750px, 80%);
-  margin: auto;
-  text-align: center;
+  padding-top: 0.1%;
+  padding-left: 10%;
 }
 .manifiesto__wrapper--slogan1 {
   font-style: normal;
-  font-size: 240%;
+  font-size: 200%;
   font-family: "Trocchi";
-  margin: 0 5%;
   color: #025ddc;
 }
 .manifiesto__wrapper--slogan2 {
   color: #104691;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 242%;
   font-family: "Trocchi";
 }
 .manifiesto__wrapper--paragraph {
   color: #4e555e;
+  width: 75vw;
   font-style: normal;
-  font-size: 120%;
+  font-size: 1rem;
   font-family: "Lato Regular";
-  padding: 2.5rem;
+  font-weight: 400;
+  text-align: left;
 }
-.manifiesto__wrapper--download {
-  background-color: white;
-  width: 12rem;
-  border-radius: 18px;
-  margin: auto;
-  padding: 0.3rem;
-}
-.manifiesto__wrapper--download:hover {
-  background-color: rgba(255, 255, 255, 0.485);
-}
-.manifiesto__wrapper--download a {
+.manifiesto__wrapper__download {
   color: #3a8cff;
   font-style: normal;
   font-size: 0.9rem;
   font-family: "Lato Bold";
   font-weight: 700;
-  text-decoration: none;
   letter-spacing: 5px;
   text-align: center;
+  height: 1.5rem;
 }
-.manifiesto__wrapper--download a:hover {
-  color: #025ddcdc;
+.intermedia {
+  background-color:#5683c3;
+  height: auto;
 }
-.manifiesto__wrapper--slogan3 {
-  color: #104691;
+.intermedia__frase {
   font-style: normal;
-  font-size: 220%;
+  font-size: 150%;
   font-family: "Trocchi";
-  padding-top: 2rem;
-}
-.manifiesto__wrapper--slogan4 {
-  color: #025ddc;
   font-style: normal;
-  font-size: 2.3rem;
-  font-family: "Trocchi";
-  margin-top: -0.8rem;
-}
-/* Fin MANIFIESTO */
-/* Estilo NOS APOYAN */
-.nos__apoyan {
-  background-color: white;
-  height: min-content(216px, 200%);
-  width: 100vw;
-  display: grid;
-  grid-template-rows: 0.5fr 2fr;
-  margin-top: 3%;
-}
-.nos__apoyan__title {
-  color: #104691;
-  font-style: normal;
-  font-size: 1.4rem;
-  font-family: "Lato Regular";
-  font-weight: 400;
-  letter-spacing: 5px;
-  word-spacing: 10px;
+  padding: 14px;
   text-align: center;
-}
-.nos__apoyan__wrapper {
-  width: 60vw;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  align-self: center;
-  margin: auto;
-}
-.nos__apoyan__wrapper img {
-  width: 120px;
-}
-/* Fin NOS APOYAN */
-/* Estilo TESTIMONIOS */
-.testimonio {
-  background-image: url(../img/manos.jpg);
-  height: min-content(793, 120%);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-size: cover;
-  padding: 30px;
-  overflow: hidden;
-  width: 100vw;
-}
-.testimonio_wrapper {
-  width: 600px;
-  margin: 0 auto;
-  padding: 30px;
-}
-.testimonio__wrapper__card {
-  background: rgb(203, 217, 241);
-  background: linear-gradient(
-    6deg,
-    rgba(203, 217, 241, 1) 0%,
-    rgba(255, 255, 255, 0.4457983877144608) 100%
-  );
-  width: 400px;
-  height: min-content (200px, 120%);
-  border-radius: 30px;
-  margin: 30px auto;
-  padding: 40px;
-  color: #4e555e;
-}
-.testimonio__wrapper__card-title {
-  color: #025ddc;
-  font-style: normal;
-  font-size: 1.4rem;
-  font-family: "Lato Bold";
-  font-weight: 700;
-  text-align: center;
-  padding: 10pt;
-}
-.testimonio__wrapper__card-paragraph {
-  font-style: normal;
-  font-size: 1.3rem;
-  font-family: "Lato italic";
-  font-weight: 400;
-  letter-spacing: 0.4px;
-  line-height: 1.4;
-  text-align: center;
-}
-/* Fin TESTIMONIOS */
-/* Estilo SUMATE */
-.sumate {
-  background-color: #e0ebff;
-  width: 100vw;
-  padding: 30px;
-  display: grid;
-  grid-template-areas: 
-  "title . ."
-  "paragraph foto_nena ."
-  "form foto_nena .";
-  grid-template-rows: 1fr 1fr 2fr;
-  grid-template-columns: 1.5fr 1.5fr 0.5fr;
-  gap: 0px 45px;
-  height: 600px;
-}
-.sumate__wrapper {
-  display: flex;
-  flex-direction: column;
-  margin-left: 30px;
-}
-.sumate__wrapper-title {
-  color: #025ddc;
-  font-style: normal;
-  font-size: 2rem;
-  font-family: "Trocchi";
-  padding: 2rem 0 1.3rem;
-  grid-area: title;
-}
-.sumate__wrapper-paragraph {
-  color: #4e555e;
-  font-style: normal;
-  font-size: 1.2rem;
-  font-family: "Lato Regular";
-  font-weight: 400;
-  line-height: 1.4;
-  padding-bottom: 2rem;
-  width: 460px;
-  grid-area: paragraph;
-}
-.sumate__formulario {
-  color: #4e555e;
-  grid-area: form;
-}
-.sumate__formulario-input {
-  margin-bottom: 16px;
-  border: 1px;
-  border-style: solid;
-  border-color: #b6d3fc;
-  font-size: 0.9rem;
-  letter-spacing: 0.5px;
-  padding-left: 8px;
-  padding-top: 7px;
-  padding-bottom: 3px;
-  color: #02275e;
-  background-color: #edf3fd;
-  width: 460px;
-}
-.sumate__formulario-btn {
-  background-color: white;
-  width: 70px;
-  height: 32px;
-  border-radius: 18px;
-  margin: 20px 25px 0 0;
-  border: none;
-  color: #025ddc;
-  font-family: "Lato-regular";
-  font-weight: 400;
-  letter-spacing: 0.3px;
-}
-.sumate img {
-  width: 100%;
-  overflow: hidden;
-  grid-area: foto_nena;
-}
-/* Fin SUMATE */
-/* Estilo FOOTER */
-.footer {
-  background-color: #5683c3;
   color: white;
-  padding: 30px 0 0 60px;
-  width: 100vw;
-}
-.footer__datos-contacto {
-  font-size: 1.05rem;
-  font-family: "Lato Light";
-  font-weight: 300;
-  line-height: 1.6rem;
   letter-spacing: 1px;
 }
-.footer__legales {
-  padding-top: 15px;
-  padding-bottom: 10px;
-  font-family: "Lato Light";
-  font-weight: 300;
-  font-size: 13px;
+@media (min-width: 768px) {
+  .main__principal {
+    background-image: url(../img/hamaca_mirror.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+  }
+  .main__principal__wrapper--title {
+    font-size: 3rem;
+    padding: 200px 0 20px 10%;
+    width: 60vw;
+    max-width: 580px;
+  }
+  .main__principal__wrapper--text {
+    font-size: 125%;
+    padding-bottom: 3rem;
+    width: 60vw;
+    padding-left: 10%;
+    max-width: 580px;
+  }
+  .main__principal__wrapper--cta a {
+    padding-left: 10%;
+  }
+  /* FIN Estilo Main Principal */
+  /* Estilo MANIFIESTO */
+  .manifiesto__img {
+    width: 38vw;
+    padding-left: 17%;
+  }
+  .manifiesto__wrapper {
+    padding-top: 7%;
+    padding-left: 1%;
+  }
+  .manifiesto__wrapper--slogan1 {
+    font-size: 2.5rem;
+    width: 600px;
+  }
+  .manifiesto__wrapper--slogan2 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    width: 600px;
+  }
+  .manifiesto__wrapper--paragraph {
+    max-width: 600px;
+    font-size: 18px;
+  }
 }
-/* Fin FOOTER */
-/* Estilo PAGINA CONTACTO */
-.contacto {
-  background-color: #e0ebff;
-  width: 100vw;
-}
-.contacto__form {
-  padding: 30px;
-}
-.contacto__formulario__input {
-  margin: 17px 0 3px;
-  width: 300px;
-  color: #4e555e;
-  font-size: 13px;
-  height: 30px;
-  border: #b6d3fc solid 1px;
-  padding-left: 6px;
-  letter-spacing: 0.5px;
-}
-.contacto__formulario__input-textarea {
-  margin: 17px 0 3px;
-  width: 300px;
-  font-size: 13px;
-  border: #b6d3fc solid 1px;
-  padding-left: 6px;
-  letter-spacing: 0.5px;
-}
-.contacto__formulario-label {
-  font-family: "Lato-Regular";
-  font-weight: 400;
-  font-size: 15px;
-  color: #1a66d0;
-  letter-spacing: 0.5px;
-  padding-left: 5px;
-}
-.contacto__formulario-btn {
-  background-color: white;
-  width: 80px;
-  height: 32px;
-  border-radius: 18px;
-  margin: 20px 25px 0 0;
-  border: none;
-  color: #025ddc;
-  font-family: "Lato-bold";
-  font-weight: 700;
-  letter-spacing: 0.3px;
-  font-size: 15px;
-}
+/* FIN Estilo Main Principal */

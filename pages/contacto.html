@@ -11,7 +11,7 @@
       rel="stylesheet"
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
-      />
+    />
     <link rel="stylesheet" href="../css/style.css" />
     <title>iniciativa Armemos Equipo</title>
   </head>
@@ -42,48 +42,109 @@
         </ul>
       </nav>
     </header>
+    <!-- INICIO contenido principal -->
+    <div class="contacto__main">
+      <p class="contacto__main__title">¿Querés ayudarnos?</p>
+      <p class="contacto__main__paragraph">
+        Para llevar a cabo nuestros proyectos y afrontar nuevos retos
+        necesitamos el soporte y la implicación de personas, entidades públicas
+        y privadas, empresas y agentes sociales comprometidas con la mejora de
+        la calidad de vida de las personas afectadas por enfermedades mentales.
+      </p>
+      <p class="contacto__main__paragraph">
+        Tu también puedes formar parte de nuestra red de solidaridad,
+        ayudándonos a impulsar nuevos proyectos.
+      </p>
+      <div class="contacto__card__wrapper">
+        <div class="contacto__card__wrapper__card01">
+          <div class="contacto__card__wrapper__card01__title">Donaciones</div>
+          <div class="contacto__card__wrapper__card01__paragraph">
+            Puedes colaborar con nuestros proyectos realizando una donación
+            económica a Iniciativa Armemos Equipo. Además puedes beneficiarte de
+            la desgravación de tu donativo en la Declaración de ganancias.
+          </div>
+        </div>
+        <div class="contacto__card__wrapper__card02">
+          <div class="contacto__card__wrapper__card02__title">Voluntariado</div>
+          <div class="contacto__card__wrapper__card02__paragraph">
+            Puedes colaborar con nuestros proyectos aportando tu tiempo,
+            experiencia personal, profesional y conocimientos. Nuestro equipo de
+            voluntarios es la esencia de nuestros programas de prevención.
+          </div>
+        </div>
+        <div class="contacto__card__wrapper__card03">
+          <div class="contacto__card__wrapper__card03__title">Empresas</div>
+          <div class="contacto__card__wrapper__card03__paragraph">
+            Las empresas socialmente responsables pueden formar parte de nuestra
+            red de colaboración mediante aportaciones económicas, materiales o
+            participación en acciones de voluntariado empresarial puntuales o de
+            continuidad.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIN contenido principal -->
+    <!-- INICIO Seccion NOS APOYAN -->
+      <section class="nos__apoyan">
+        <div>
+          <h3 class="nos__apoyan__title">NOS ACOMPAÑAN</h3>
+        </div>
+        <div class="nos__apoyan__wrapper">
+          <img src="../img/logo_MCB.png" alt="Mujeres por el Bien Común" />
+          <img src="../img/logo_CITPAD.png" alt="CITPAD" />
+          <img src="../img/logo_ALUBA.png" alt="ALUBA" />
+          <img src="../img/logo_FITA.png" alt="fundación FITA" />
+        </div>
+      </section>
+    <!-- FIN Seccion NOS APOYAN -->
     <!-- INICIO Formulario -->
-    <div class="contacto">
+    <div class="contacto__formulario">
+      <p class="contacto__formulario__paragraph">
+        Si lo preferís, podemos contactarnos con vos.
+      </p>
+      <p class="contacto__formulario__paragraph">
+        Sólo dejanos tus datos debajo y nos comunicaremos a la brevedad.
+      </p>
       <form action="" class="contacto__form">
         <div>
-          <input class="contacto__formulario__input"
-            type="text"
-            name="name"
-          />
+          <input class="contacto__formulario__input" type="text" name="name" />
         </div>
         <div>
           <label for="name" class="contacto__formulario-label">Nombre</label>
         </div>
         <div>
-          <input class="contacto__formulario__input"
+          <input
+            class="contacto__formulario__input"
             type="text"
             name="surname"
           />
         </div>
         <div>
-          <label for="surname" class="contacto__formulario-label">Apellido</label>
+          <label for="surname" class="contacto__formulario-label"
+            >Apellido</label
+          >
         </div>
         <div>
-          <input class="contacto__formulario__input"
+          <input
+            class="contacto__formulario__input"
             type="text"
             name="institución"
           />
         </div>
         <div>
-          <label for="institución" class="contacto__formulario-label""
-            >Nombre de la institución</label>
+          <label for="institución" class="contacto__formulario-label"
+            >Nombre de la institución</label
+          >
         </div>
         <div>
-          <input class="contacto__formulario__input"
-            type="text"
-            name="cargo"
-          />
+          <input class="contacto__formulario__input" type="text" name="cargo" />
         </div>
         <div>
           <label for="cargo" class="contacto__formulario-label">Cargo</label>
         </div>
         <div>
-          <input class="contacto__formulario__input"
+          <input
+            class="contacto__formulario__input"
             type="email"
             name="email"
           />
@@ -92,7 +153,8 @@
           <label for="email" class="contacto__formulario-label">email</label>
         </div>
         <div>
-          <input class="contacto__formulario__input"
+          <input
+            class="contacto__formulario__input"
             type="teléfono"
             name="teléfono"
             placeholder="(+54) 11 1111 1111"
@@ -100,13 +162,22 @@
         </div>
         <div>
           <label for="teléfono" class="contacto__formulario-label"
-            >Teléfono de contacto</label>
+            >Teléfono de contacto</label
+          >
         </div>
         <div>
-          <textarea class="contacto__formulario__input-textarea" name="" id="" cols="36" rows="6"></textarea>
+          <textarea
+            class="contacto__formulario__input-textarea"
+            name=""
+            id=""
+            cols="36"
+            rows="6"
+          ></textarea>
         </div>
         <div>
-          <label for="textarea" class="contacto__formulario-label">Mensaje</label>
+          <label for="textarea" class="contacto__formulario-label"
+            >Mensaje</label
+          >
         </div>
         <div>
           <button type="submit" class="contacto__formulario-btn">Enviar</button>
@@ -117,14 +188,55 @@
     <!-- FIN Formulario -->
     <!-- INICIO Footer -->
     <footer class="footer">
-      <div class="footer__datos-contacto">
-        <p>info@armemosequipo.com.ar</p>
-        <p>(+54)911 6014 1638</p>
-        <div class="footer__legales">
-          <p>Copyright ©2022 Armemos Equipo</p>
+      <div class="footer__wrapper">
+        <div>
+          <img
+            src="../img/logo_apaisado_blanco.svg"
+            alt="Armemos Equipo"
+            height="60px"
+          />
         </div>
+        <nav class="footer__wrapper__nav">
+          <ul>
+            <li>
+              <a class="active" href="./index.html">INICIO</a>
+            </li>
+            <li>
+              <a href="./pages/desafio.html"> DESAFIO</a>
+            </li>
+            <li>
+              <a href="./pages/propuesta.html">PROPUESTA</a>
+            </li>
+            <li>
+              <a href="./pages/programas.html">PROGRAMAS</a>
+            </li>
+            <li>
+              <a href="./pages/contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__wrapper__datos__contacto">
+          <p>Información:</p>
+          <a href="mailto:info@armemosequipo.org.ar"
+            >info@armemosequipo.org.ar
+          </a>
+          <p>(+54)911 6014 1638</p>
+          <p>Fondos, donaciones y alianzas:</p>
+          <a href="mailto:info@armemosequipo.org.ar"
+            >socios@armemosequipo.org.ar</a
+          >
+        </div>
+      </div>
+      <div class="footer__legales">
+        <p>Todos los derechos reservados para Armemos Equipo.</p>
       </div>
     </footer>
     <!-- FIN FOOTER -->
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
