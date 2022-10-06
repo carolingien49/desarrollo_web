@@ -25,7 +25,7 @@
         class="navbar navbar-expand-lg navbar-dark navbar__background fixed-top"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href=".index.html">
+          <a class="navbar-brand" href="/index.html">
             <img
               src="./img/logo_apaisado_blanco.svg"
               alt="Armemos Equipo"
@@ -114,8 +114,75 @@
                 commodi in vel fugit!
               </p>
               <p class="main__principal__wrapper--cta">
-                <a href="./pages/contacto.html">SUSCRIBITE</a>
+                <button class="btn" data-toggle="modal" data-bs-target="#ventanaSuscribite">SUSCRIBITE</button>
               </p>
+              <div class="modal fade" id="ventana_suscribite" tabindex="-1" role="dialog" aria-labelledby="titulo_ventana" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Modal title</h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">
+                        Save changes
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+            </div>
+            <div class="modal fade" id="ventana_suscribite" tabindex="-1" role="dialog" aria-labelledby="titulo_ventana" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -383,32 +450,6 @@
     <!-- INICIO Footer -->
     <footer class="footer">
       <div class="footer__wrapper">
-        <div>
-          <img
-            src="./img/logo_apaisado_blanco.svg"
-            alt="Armemos Equipo"
-            height="60px"
-          />
-        </div>
-        <nav class="footer__wrapper__nav">
-          <ul>
-            <li>
-              <a class="active" href="../index.html">INICIO</a>
-            </li>
-            <li>
-              <a href="./pages/desafio.html"> DESAFIO</a>
-            </li>
-            <li>
-              <a href="./pages/propuesta.html">PROPUESTA</a>
-            </li>
-            <li>
-              <a href="./pages/programas.html">PROGRAMAS</a>
-            </li>
-            <li>
-              <a href="./pages/contacto.html">CONTACTO</a>
-            </li>
-          </ul>
-        </nav>
         <div class="footer__wrapper__datos__contacto">
           <p>Información:</p>
           <p>
@@ -426,7 +467,7 @@
         </div>
       </div>
       <div class="footer__legales">
-        <p>Todos los derechos reservados para Armemos Equipo.</p>
+        <p>Todos los derechos reservados para iniciativa Armemos Equipo.</p>
       </div>
     </footer>
     <!-- FIN FOOTER -->
