@@ -2,50 +2,50 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: unset;
-}
+  font-size: unset; }
+
 ul,
 ol {
   font-style: normal;
-  list-style: none;
-}
+  list-style: none; }
+
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
+
 @font-face {
   font-family: "Trocchi";
   src: url("../fonts/Trocchi/Trocchi-Regular.ttf") format("truetype");
   font-style: normal;
-  font-weight: 400;
-}
+  font-weight: 400; }
+
 @font-face {
   font-family: "Lato Light";
   src: url("../fonts/Lato/Lato-light.ttf") format("truetype");
   font-style: normal;
-  font-weight: 300;
-}
+  font-weight: 300; }
+
 @font-face {
   font-family: "Lato Regular";
   src: url("../fonts/Lato/Lato-Regular.ttf") format("truetype");
   font-style: normal;
-  font-weight: 400;
-}
+  font-weight: 400; }
+
 @font-face {
   font-family: "Lato Italic";
   src: url("../fonts/Lato/Lato-Italic.ttf") format("truetype");
   font-style: italic;
-  font-weight: 400;
-}
+  font-weight: 400; }
+
 @font-face {
   font-family: "Lato Bold";
   src: url("../fonts/Lato/Lato-bold.ttf") format("truetype");
   font-style: normal;
-  font-weight: 700;
-}
+  font-weight: 700; }
+
 .navbar__background {
   background-color: #5683c3;
-  padding-top: 9px;
-}
+  padding-top: 9px; }
+
 .nav-link {
   color: white;
   font-style: normal;
@@ -53,18 +53,18 @@ a {
   font-family: "Lato Light";
   font-weight: 300;
   letter-spacing: 2.5px;
-  text-align: end;
-}
+  text-align: end; }
+
 .navbar-nav .nav-link.active {
   color: #E4FFCB;
   font-style: normal;
   font-family: "Lato Regular";
-  font-weight: 400;
-}
+  font-weight: 400; }
+
 .navbar-nav .nav-link:hover {
   transform: scale(1.08);
-  color: #d1e5feeb;
-}
+  color: #d1e5feeb; }
+
 /* Estilo  S O C I A L   I C O N S  */
 #main__icon__wrapper {
   position: fixed;
@@ -73,8 +73,8 @@ a {
   height: 126px;
   align-items: space-between;
   flex-wrap: wrap;
-  top: 395px;
-}
+  top: 395px; }
+
 .main__social__icons__links {
   display: block;
   color: rgba(255, 255, 255, 0.8);
@@ -82,11 +82,11 @@ a {
   height: 40px;
   width: 39px;
   text-align: center;
-  padding-top: 8px;
-}
+  padding-top: 8px; }
+
 .main__social__icons__links:hover {
-  color: rgb(99, 149, 199);
-}
+  color: #6395c7; }
+
 /* FIN  Estilo  S O C I A L   I C O N S */
 /* Estilo   M A I N   P R I N C I P A L  */
 .main__principal {
@@ -95,16 +95,16 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100vw;
-}
+  width: 100vw; }
+
 .main__principal__wrapper--title {
   color: #0a4091;
   font-style: normal;
   font-size: 32px;
   font-family: "Trocchi";
   padding: 120px 0 20px 0;
-  width: 85vw;
-}
+  width: 85vw; }
+
 .main__principal__wrapper--text {
   color: #092c5f;
   font-style: normal;
@@ -112,8 +112,8 @@ a {
   font-family: "Lato Regular";
   font-weight: 400;
   padding-bottom: 2rem;
-  width: 80vw;
-}
+  width: 80vw; }
+
 .main__principal__wrapper--cta {
   font-style: normal;
   font-size: 1.2rem;
@@ -123,38 +123,38 @@ a {
   letter-spacing: 5px;
   margin-left: -7pt;
   background-color: transparent;
-  border: none;
-}
+  border: none; }
+
 .main__principal__wrapper--cta button:hover {
   color: #3e8efe;
-  background-color: transparent;
-}
+  background-color: transparent; }
+
 /* FIN  Estilo   M A I N   P R I N C I P A L */
 /* Estilo   M A N I F I E S T O */
 .manifiesto {
   background-color: #e0ebff;
-  height: auto;
-}
+  height: auto; }
+
 .manifiesto__img {
   size: 100vw;
-  width: 90vw;
-}
+  width: 90vw; }
+
 .manifiesto__wrapper {
   padding-top: 0.1%;
-  padding-left: 10%;
-}
+  padding-left: 10%; }
+
 .manifiesto__wrapper--slogan1 {
   font-style: normal;
   font-size: 200%;
   font-family: "Trocchi";
-  color: #025ddc;
-}
+  color: #025ddc; }
+
 .manifiesto__wrapper--slogan2 {
   color: #104691;
   font-style: normal;
   font-size: 242%;
-  font-family: "Trocchi";
-}
+  font-family: "Trocchi"; }
+
 .manifiesto__wrapper--paragraph {
   color: #4e555e;
   width: 75vw;
@@ -162,8 +162,8 @@ a {
   font-size: 1rem;
   font-family: "Lato Regular";
   font-weight: 400;
-  text-align: left;
-}
+  text-align: left; }
+
 .manifiesto__wrapper__download {
   color: #3a8cff;
   font-style: normal;
@@ -172,17 +172,17 @@ a {
   font-weight: 700;
   letter-spacing: 5px;
   text-align: center;
-  height: 1.5rem;
-}
+  height: 1.5rem; }
+
 .manifiesto__wrapper__download a:hover {
-  color: #025ddcdc;
-}
+  color: #025ddcdc; }
+
 /* FIN Estilo  M A N I F I E S T O */
 /* Estilo   I N T E R M E D I A */
 .intermedia {
   background-color: #5683c3;
-  height: auto;
-}
+  height: auto; }
+
 .intermedia__frase {
   font-style: normal;
   font-size: 150%;
@@ -191,8 +191,8 @@ a {
   padding: 14px;
   text-align: center;
   color: white;
-  letter-spacing: 2px;
-}
+  letter-spacing: 2px; }
+
 /* Fin  Estilo  I N T E R M E D I A */
 /* Estilo  T E S T I M O N I O S */
 .testimonio {
@@ -201,32 +201,26 @@ a {
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
-  overflow: hidden;
-}
+  overflow: hidden; }
+
 .testimonio__wrapper__card {
-  background: rgb(203, 217, 241);
-  background: linear-gradient(
-    6deg,
-    rgba(203, 217, 241, 1) 0%,
-    rgba(255, 255, 255, 0.6) 100%
-  );
+  background: #96bbfc;
+  background: linear-gradient(6deg, rgba(217, 233, 255, 0.53) 0%, #96bbfc 100%);
   width: 85vw;
   height: auto;
-  border-radius: 20px;
   margin-top: 20px;
   margin-left: 11vw;
   color: #4e555e;
-  padding: 25px 30px 5px;
-}
+  padding: 25px 30px 5px; }
+
 .testimonio__wrapper__card--title {
-  color: #025ddc;
-  font-style: normal;
-  font-size: 1.4rem;
-  font-family: "Lato Bold";
-  font-weight: 700;
-  text-align: left;
-  padding: 8pt 0 4pt;
-}
+  color: #13438D;
+  font-size: 2.4rem;
+  font-family: "Trocchi";
+  font-weight: 400;
+  text-align: center;
+  padding: 8pt 0 4pt; }
+
 .testimonio__wrapper__card--paragraph {
   font-style: normal;
   font-size: 16px;
@@ -234,15 +228,15 @@ a {
   font-weight: 400;
   letter-spacing: 0.3px;
   line-height: 1.4;
-  text-align: left;
-}
+  text-align: left; }
+
 .carousel-control-prev {
-  display: none;
-}
+  display: none; }
+
 .carousel-control-next {
   margin-right: 0.3vw;
-  margin-top: -195vw;
-}
+  margin-top: -195vw; }
+
 /* Fin  Estilo  T E S T I M O N I O S */
 /* Estilo   SUMATE */
 .sumate {
@@ -251,32 +245,29 @@ a {
   padding: 30px 30px 30px 80px;
   display: grid;
   /* ACA HAY LIO con la grid */
-  grid-template-areas:
-    "title . ."
-    "paragraph foto_nena ."
-    "form foto_nena .";
+  grid-template-areas: "title . ." "paragraph foto_nena ." "form foto_nena .";
   grid-template-rows: 1fr 1fr 2fr;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px 25px;
   height: 600px;
-  overflow: hidden;
-}
+  overflow: hidden; }
+
 .sumate img {
-  padding-top: 105px;
-}
+  padding-top: 105px; }
+
 .sumate__wrapper {
   display: flex;
   flex-direction: column;
-  padding-left: 10vw;
-}
+  padding-left: 10vw; }
+
 .sumate__wrapper--title {
   color: #025ddc;
   font-style: normal;
   font-size: 2rem;
   font-family: "Trocchi";
   padding: 2rem 0 1.3rem;
-  grid-area: title;
-}
+  grid-area: title; }
+
 .sumate__wrapper--paragraph {
   color: #4e555e;
   font-style: normal;
@@ -286,12 +277,12 @@ a {
   line-height: 1.4;
   padding-bottom: 1rem;
   width: 460px;
-  grid-area: paragraph;
-}
+  grid-area: paragraph; }
+
 .sumate__formulario {
   color: #4e555e;
-  grid-area: form;
-}
+  grid-area: form; }
+
 .sumate__formulario--input {
   margin-bottom: 16px;
   border: 1px;
@@ -304,8 +295,8 @@ a {
   padding-bottom: 3px;
   color: #02275e;
   background-color: #edf3fd;
-  width: 420px;
-}
+  width: 420px; }
+
 .sumate__formulario--btn {
   background-color: white;
   width: 70px;
@@ -316,20 +307,20 @@ a {
   color: #025ddc;
   font-family: "Lato-regular";
   font-weight: 400;
-  letter-spacing: 0.3px;
-}
+  letter-spacing: 0.3px; }
+
 .sumate img {
   width: 100%;
   overflow: hidden;
-  grid-area: foto_nena;
-}
+  grid-area: foto_nena; }
+
 /* Fin SUMATE */
 /* Estilo FOOTER */
 .footer {
   background-color: #5683c3;
   color: white;
-  width: 100vw;
-}
+  width: 100vw; }
+
 .footer__wrapper {
   width: 100vw;
   display: flex;
@@ -339,57 +330,56 @@ a {
   color: white;
   font-family: "Lato Light";
   font-weight: 300;
-  font-style: normal;
-}
+  font-style: normal; }
+
 .footer__wrapper__nav {
   display: flex;
   padding-top: 10px;
   font-size: 12px;
   letter-spacing: 3px;
-  line-height: 1.6rem;
-}
+  line-height: 1.6rem; }
+
 .footer__wrapper__nav a {
-  color: white;
-}
+  color: white; }
+
 .footer__wrapper__nav a:hover {
-  color: #d1e5feeb;
-}
+  color: #d1e5feeb; }
+
 .footer__wrapper__datos__contacto {
   padding-top: 18px;
   font-size: 15px;
   letter-spacing: 1px;
-  line-height: 9px;
-}
+  line-height: 9px; }
+
 .footer__wrapper__datos__contacto a {
-  color: white;
-}
+  color: white; }
+
 .footer__wrapper__datos__contacto a:hover {
-  color: #d1e5feeb;
-}
+  color: #d1e5feeb; }
+
 .footer__legales {
   padding: 15px 0 1px 130px;
   font-family: "Lato Light";
   font-weight: 300;
   font-size: 12px;
   text-align: left;
-  letter-spacing: 1px;
-}
-/* Fin FOOTER */
+  letter-spacing: 1px; }
 
+/* Fin FOOTER */
 /* Estilo PAGINA CONTACTO */
 .contacto__main {
   width: 100vw;
   padding-top: 16vh;
   background-color: #e0ebff;
-  height: auto;
-}
+  height: auto; }
+
 .contacto__main__title {
   color: #025ddc;
   font-style: normal;
   font-size: 32px;
   font-family: "Trocchi";
-  width: 85vw;
-}
+  width: 85vw; }
+
 .contacto__main__paragraph {
   color: #4e555e;
   width: 75vw;
@@ -397,24 +387,20 @@ a {
   font-size: 1rem;
   font-family: "Lato Regular";
   font-weight: 400;
-  text-align: left;
-}
+  text-align: left; }
+
 .contacto__card__wrapper {
   width: 60vw;
-  height: auto;
-}
+  height: auto; }
+
 .contacto__card__wrapper__cards {
-  background: rgb(203, 217, 241);
-  background: linear-gradient(
-    6deg,
-    rgb(224, 235, 255) 0%,
-    rgba(252, 253, 255, 0.6) 100%
-  );
+  background: #cbd9f1;
+  background: linear-gradient(6deg, #e0ebff 0%, rgba(252, 253, 255, 0.6) 100%);
   border-radius: 10px;
   height: 100%;
   padding: 25px 30px 10px 30px;
-  width: 130%;
-}
+  width: 130%; }
+
 .contacto__card__wrapper__cards__title {
   color: #025ddc;
   font-style: normal;
@@ -423,8 +409,8 @@ a {
   font-weight: 700;
   text-align: left;
   padding: 8pt 0 4pt;
-  text-align: center;
-}
+  text-align: center; }
+
 .contacto__card__wrapper__cards__paragraph {
   font-style: normal;
   font-size: 16px;
@@ -433,15 +419,15 @@ a {
   letter-spacing: 0.3px;
   line-height: 24px;
   text-align: center;
-  color: #4e555e;
-}
+  color: #4e555e; }
+
 .contacto__form {
-  padding: 0 10px 10px 10px;
-}
+  padding: 0 10px 10px 10px; }
+
 .contacto__formulario {
   width: 100vw;
-  padding-left: 10vw;
-}
+  padding-left: 10vw; }
+
 .contacto__formulario__paragraph {
   color: #1a66d0;
   width: 75vw;
@@ -450,8 +436,8 @@ a {
   font-family: "Trocchi";
   text-align: left;
   line-height: 24px;
-  margin-left: 6px;
-}
+  margin-left: 6px; }
+
 .contacto__formulario__input {
   margin: 15px 0 3px;
   width: 300px;
@@ -460,26 +446,26 @@ a {
   height: 30px;
   border: #b6d3fc solid 1px;
   padding-left: 6px;
-  letter-spacing: 0.5px;
-}
+  letter-spacing: 0.5px; }
+
 .contacto__formulario__input-textarea {
   margin: 17px 0 3px;
   width: 300px;
   font-size: 13px;
   border: #b6d3fc solid 1px;
   padding-left: 6px;
-  letter-spacing: 0.5px;
-}
+  letter-spacing: 0.5px; }
+
 .contacto__formulario-label {
   font-family: "Lato-Regular";
   font-weight: 400;
   font-size: 15px;
   color: #1a66d0;
   letter-spacing: 0.5px;
-  padding-left: 5px;
-}
+  padding-left: 5px; }
+
 .contacto__formulario-btn {
-  background-color:#dfecfd;
+  background-color: #dfecfd;
   width: 80px;
   height: 30px;
   border-radius: 18px;
@@ -489,8 +475,8 @@ a {
   font-family: "Lato-bold";
   font-weight: 700;
   letter-spacing: 0.3px;
-  font-size: 16px;
-}
+  font-size: 16px; }
+
 /* Estilo NOS APOYAN */
 .nos__apoyan {
   background-color: white;
@@ -498,8 +484,8 @@ a {
   width: 100vw;
   display: grid;
   grid-template-rows: 0.5fr 2fr;
-  padding: 40px 0 25px;
-}
+  padding: 40px 0 25px; }
+
 .nos__apoyan__title {
   color: #104691;
   font-style: normal;
@@ -508,21 +494,20 @@ a {
   font-weight: 400;
   letter-spacing: 5px;
   word-spacing: 10px;
-  text-align: center;
-}
+  text-align: center; }
+
 .nos__apoyan__wrapper {
   width: 600px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-self: center;
-  margin: auto;
-}
-.nos__apoyan__wrapper img {
-  width: 120px;
-}
-/* Fin NOS APOYAN */
+  margin: auto; }
 
+.nos__apoyan__wrapper img {
+  width: 120px; }
+
+/* Fin NOS APOYAN */
 @media (min-width: 768px) {
   /* Estilo  M A I N   P R I N C I P A L  tablet */
   .main__principal {
@@ -531,47 +516,38 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100vw;
-  }
+    width: 100vw; }
   .main__principal__wrapper--title {
     font-size: 3rem;
     padding: 200px 0 20px 10%;
     width: 60vw;
-    max-width: 580px;
-  }
+    max-width: 580px; }
   .main__principal__wrapper--text {
     font-size: 125%;
     padding-bottom: 3rem;
     width: 60vw;
     padding-left: 10%;
-    max-width: 580px;
-  }
+    max-width: 580px; }
   .main__principal__wrapper--cta {
-    margin-left: 9.2%;
-  }
+    margin-left: 9.2%; }
   /* FIN  Estilo  M A I N   P R I N C I P A L  tablet*/
   /* Estilo  M A N I F I E S T O  tablet */
   .manifiesto__img {
     width: 40vw;
-    padding-left: 7%;
-  }
+    padding-left: 7%; }
   .manifiesto__wrapper {
     padding-top: 7%;
-    padding-left: 1%;
-  }
+    padding-left: 1%; }
   .manifiesto__wrapper--slogan1 {
     font-size: 2.5rem;
-    width: 600px;
-  }
+    width: 600px; }
   .manifiesto__wrapper--slogan2 {
     font-size: 3rem;
     margin-bottom: 15px;
-    width: 600px;
-  }
+    width: 600px; }
   .manifiesto__wrapper--paragraph {
     max-width: 400px;
-    font-size: 18px;
-  }
+    font-size: 18px; }
   /* Estilo  M A N I F I E S T O  tablet */
   /* Estilo  T E S T I M O N I O S tablet */
   .testimonio {
@@ -582,22 +558,16 @@ a {
     background-size: cover;
     padding: 30px;
     overflow: hidden;
-    width: 100vw;
-  }
+    width: 100vw; }
   .testimonio__wrapper__card {
-    background: rgb(203, 217, 241);
-    background: linear-gradient(
-      6deg,
-      rgba(203, 217, 241, 1) 0%,
-      rgba(255, 255, 255, 0.6) 100%
-    );
+    background: #cbd9f1;
+    background: linear-gradient(6deg, #cbd9f1 0%, rgba(255, 255, 255, 0.6) 100%);
     width: 570px;
     height: 480px;
     border-radius: 20px;
     margin: 30px auto;
     padding: 25px 30px;
-    color: #4e555e;
-  }
+    color: #4e555e; }
   .testimonio__wrapper__card--title {
     color: #025ddc;
     font-style: normal;
@@ -605,8 +575,7 @@ a {
     font-family: "Lato Bold";
     font-weight: 700;
     text-align: center;
-    padding: 8pt 0 4pt;
-  }
+    padding: 8pt 0 4pt; }
   .testimonio__wrapper__card--paragraph {
     font-style: normal;
     font-size: 16px;
@@ -615,48 +584,37 @@ a {
     letter-spacing: 0.3px;
     line-height: 1.4;
     text-align: center;
-    margin-bottom: 10px;
-  }
+    margin-bottom: 10px; }
   .testimonio__wrapper__card--nombre {
     position: absolute;
     bottom: 30px;
     font-size: 13px;
-    letter-spacing: 0.5px;
-  }
+    letter-spacing: 0.5px; }
   .carousel-control-prev {
     display: block;
-    margin-left: -4vw;
-  }
+    margin-left: -4vw; }
   .carousel-control-next {
     display: block;
     margin-right: -4vw;
-    margin-top: 0;
-  }
-}
+    margin-top: 0; } }
+
 /* Estilos XL - desktop*/
 @media (min-width: 992px) {
   .manifiesto__img {
     width: 40vw;
-    padding-left: 9%;
-  }
+    padding-left: 9%; }
   .manifiesto__wrapper--paragraph {
     max-width: 540px;
-    font-size: 18px;
-  }
+    font-size: 18px; }
   .testimonio__wrapper__card {
-    background: rgb(203, 217, 241);
-    background: linear-gradient(
-      6deg,
-      rgba(203, 217, 241, 1) 0%,
-      rgba(255, 255, 255, 0.6) 100%
-    );
+    background: #cbd9f1;
+    background: linear-gradient(6deg, #cbd9f1 0%, rgba(255, 255, 255, 0.6) 100%);
     width: 570px;
     height: 480px;
     border-radius: 20px;
     margin: 30px 0 30px 38vw;
     padding: 25px 30px;
-    color: #4e555e;
-  }
+    color: #4e555e; }
   .footer__wrapper {
     height: 180px;
     width: 100vw;
@@ -668,39 +626,30 @@ a {
     color: white;
     font-family: "Lato Light";
     font-weight: 300;
-    font-style: normal;
-  }
+    font-style: normal; }
   .footer__wrapper__nav {
     display: flex;
     padding-top: 10px;
     font-size: 12px;
     letter-spacing: 3px;
-    line-height: 1.6rem;
-  }
+    line-height: 1.6rem; }
   .footer__wrapper__nav a {
-    color: white;
-  }
+    color: white; }
   .footer__wrapper__nav a:hover {
-    color: #d1e5feeb;
-  }
+    color: #d1e5feeb; }
   .footer__wrapper__datos__contacto {
     padding-top: 18px;
     font-size: 15px;
     letter-spacing: 1px;
-    line-height: 9px;
-  }
+    line-height: 9px; }
   .footer__wrapper__datos__contacto a {
-    color: white;
-  }
+    color: white; }
   .footer__wrapper__datos__contacto a:hover {
-    color: #d1e5feeb;
-  }
+    color: #d1e5feeb; }
   .footer__legales {
     padding: 15px 0 1px 130px;
     font-family: "Lato Light";
     font-weight: 300;
     font-size: 12px;
     text-align: left;
-    letter-spacing: 1px;
-  }
-}
+    letter-spacing: 1px; } }
