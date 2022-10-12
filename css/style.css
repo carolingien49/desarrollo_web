@@ -52,10 +52,11 @@ a {
   font-size: 13px;
   font-family: "Lato Light";
   font-weight: 300;
-  letter-spacing: 3px;
+  letter-spacing: 2.5px;
+  text-align: end;
 }
 .navbar-nav .nav-link.active {
-  color: #b2cdf1d6;
+  color: #E4FFCB;
   font-style: normal;
   font-family: "Lato Regular";
   font-weight: 400;
@@ -113,17 +114,20 @@ a {
   padding-bottom: 2rem;
   width: 80vw;
 }
-.main__principal__wrapper--cta button {
+.main__principal__wrapper--cta {
   font-style: normal;
   font-size: 1.2rem;
   font-family: "Lato Regular";
   text-decoration: none;
   color: #025ddc;
   letter-spacing: 5px;
-  padding-left: 10%;
+  margin-left: -7pt;
+  background-color: transparent;
+  border: none;
 }
-.main__principal__wrapper--cta a:hover {
+.main__principal__wrapper--cta button:hover {
   color: #3e8efe;
+  background-color: transparent;
 }
 /* FIN  Estilo   M A I N   P R I N C I P A L */
 /* Estilo   M A N I F I E S T O */
@@ -542,8 +546,8 @@ a {
     padding-left: 10%;
     max-width: 580px;
   }
-  .main__principal__wrapper--cta a {
-    padding-left: 10%;
+  .main__principal__wrapper--cta {
+    margin-left: 9.2%;
   }
   /* FIN  Estilo  M A I N   P R I N C I P A L  tablet*/
   /* Estilo  M A N I F I E S T O  tablet */
