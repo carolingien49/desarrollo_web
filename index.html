@@ -5,14 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./img/fav-icon.svg" />
-    <!-- CSS only -->
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
     <script
       src="https://kit.fontawesome.com/d68c1bb5cd.js"
       crossorigin="anonymous"
@@ -30,7 +22,7 @@
             <img
               src="./img/logo_apaisado_blanco.svg"
               alt="Armemos Equipo"
-              height="60px"
+              height="50px"
             />
           </a>
           <button
@@ -70,7 +62,7 @@
         </div>
       </nav>
     </header>
-    <!-- INICIO Social Icons -->
+    <!-- INICIO REDES -->
     <div id="main__icon__wrapper">
       <a
         target="_blank"
@@ -100,8 +92,8 @@
         <i class="fa-brands fa-instagram fa-xl"></i>
       </a>
     </div>
-    <!-- FIN Social Icons -->
-    <!-- INICIO Contenido Principal -->
+    <!-- FIN REDES -->
+    <!-- INICIO Contenido PRINCIPAL -->
     <main class="main__principal">
       <div class="main__principal__wrapper">
         <div class="container-fluid ps-5">
@@ -172,8 +164,8 @@
         </div>
       </div>
     </main>
-    <!-- FIN Contenido Principal -->
-    <!-- INICIO Seccion Manifiesto -->
+    <!-- FIN Contenido PRINCIPAL -->
+    <!-- INICIO Seccion MANIFIESTO -->
     <section class="manifiesto">
       <div class="container-fluid">
         <div class="row">
@@ -204,7 +196,7 @@
                 medida que se potencian los factores de protección que reducen
                 la posibilidad de padecerlos.
               </p>
-              <p class="btn btn-light rounded-pill mt-3 mb-5">
+              <p class="btn btn-light rounded-pill btn-sm mt-3 mb-5 px-3">
                 <a href="#" class="manifiesto__wrapper__download">
                   MANIFIESTO</a
                 >
@@ -215,11 +207,11 @@
         </div>
       </div>
     </section>
-    <!-- FIN Seccion Manifiesto -->
-    <!-- INICIO Seccion Intermedia -->
+    <!-- FIN Seccion MANIFIESTO -->
+    <!-- INICIO Seccion INTERMEDIA -->
     <section class="intermedia">
       <div class="container-fluid">
-        <div class="row h-100 text-center p-2">
+        <div class="row h-100 text-center pt-3">
           <div class="col-12">
             <p class="intermedia__frase">
               Porque se puede prevenir. Porque es mejor que curar.
@@ -228,8 +220,8 @@
         </div>
       </div>
     </section>
-    <!-- FIN Seccion Intermedia -->
-    <!-- INICIO Seccion Testimonios -->
+    <!-- FIN Seccion INTERMEDIA -->
+    <!-- INICIO Seccion OFRECEMOS -->
     <section class="testimonio">
       <div class="testimonio__wrapper__card">
         <h3 class="testimonio__wrapper__card--title">
@@ -245,78 +237,84 @@
           Programas de prevención con foco en los factores de riesgo y el
           fortalecimiento de los vínculos de la comunidad que los rodea.
         </p>
-        <p class="btn btn-light rounded-pill">
-          <a href="#" class="testimonio__wrapper__card--btn">
-            CONOCÉ MÁS</a
+        <div>
+          <p
+            style="width: 155px"
+            class="btn btn-light rounded-pill btn-sm d-block mt-3 mb-4 mb-md-1 mx-auto"
           >
-        </p>
-      </div>
-    </section>
-    <!-- FIN Seccion NOS TESTIMONIOS -->
-    <!-- INICIO Seccion SUMATE -->
-    <section class="sumate">
-      <div class="sumate__wrapper">
-        <h3 class="sumate__wrapper--title">Sumate al equipo</h3>
-        <p class="sumate__wrapper--paragraph">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque eius
-          tempore, nesciunt culpa ex eligendi cupiditate deserunt repudiandae
-          sunt quas.
-        </p>
-        <div class="sumate__formulario">
-          <form action="">
-            <div>
-              <input
-                class="sumate__formulario--input"
-                type="text"
-                name="name"
-                placeholder="Nombre completo"
-              />
-            </div>
-            <div>
-              <input
-                class="sumate__formulario--input"
-                type="text"
-                name="institución"
-                placeholder="Institución"
-              />
-            </div>
-            <div>
-              <input
-                class="sumate__formulario--input"
-                type="text"
-                name="cargo"
-                placeholder="Cargo"
-              />
-            </div>
-            <div>
-              <input
-                class="sumate__formulario--input"
-                type="email"
-                name="email"
-                placeholder="email"
-              />
-            </div>
-            <div>
-              <input
-                class="sumate__formulario--input"
-                type="teléfono"
-                name="teléfono"
-                placeholder="Teléfono"
-              />
-            </div>
-            <div>
-              <button type="submit" class="sumate__formulario--btn">
-                Enviar
-              </button>
-            </div>
-          </form>
+            <a
+              href="./pages/programas.html"
+              class="testimonio__wrapper__card--btn"
+            >
+              CONOCÉ MÁS</a
+            >
+          </p>
         </div>
       </div>
-      <div>
-        <img src="./img/sumate.jpg" alt="Sumate al equipo" />
+    </section>
+    <!-- FIN Seccion OFRECEMOS -->
+    <!-- INICIO Seccion CONTACTO -->
+    <section class="contacto__wrapper">
+      <div class="container">
+        <form class="row g-3 ps-5 pe-1 pt-3 pb-4">
+          <div class="col-md-11">
+            <label for="Nombre completo" class="form-label ps-4 text-secondary"
+              >Nombre completo</label
+            >
+            <input
+              type="text"
+              style="width: 300px"
+              class="form-control rounded-pill"
+              id="nombreCompleto"
+            />
+          </div>
+          <div class="col-md-11">
+            <label for="inputEmail4" class="form-label ps-4 text-secondary"
+              >Email</label
+            >
+            <input
+              type="email"
+              style="width: 300px"
+              class="form-control rounded-pill"
+              id="inputEmail4"
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="inputConociste" class="form-label ps-4 text-secondary"
+              >Cómo nos conociste</label
+            >
+            <select
+              id="inputConociste"
+              style="width: 300px"
+              class="form-select ps-3 rounded-pill text-secondary"
+            >
+              <option selected>Elegí...</option>
+              <option>Redes sociales</option>
+              <option>Noticias</option>
+              <option>Publicidad</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label text-secondary" for="gridCheck">
+                Me interesa recibir el newsletter mensual.
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button
+              type="submit"
+              style="width: 80px"
+              class="btn btn-light text-primary rounded-pill btn-sm"
+            >
+              ENVIAR
+            </button>
+          </div>
+        </form>
       </div>
     </section>
-    <!-- FIN Seccion SUMATE -->
+    <!-- FIN Seccion contacto -->
     <!-- INICIO Footer -->
     <footer class="footer">
       <div class="footer__wrapper">
@@ -341,6 +339,7 @@
       </div>
     </footer>
     <!-- FIN FOOTER -->
+    <!-- JavaScript Bundle with Popper -->
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

@@ -1,0 +1,23 @@
+/* Estilo  S O C I A L   I C O N S  */
+#main__icon__wrapper {
+    position: fixed;
+    display: flex;
+    width: 39px;
+    height: 126px;
+    align-items: space-between;
+    flex-wrap: wrap;
+    top: 395px;
+  }
+  .main__social__icons__links {
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(51, 92, 130, 0.1);
+    height: 40px;
+    width: 39px;
+    text-align: center;
+    padding-top: 8px;
+    &:hover {
+      color: rgb(99, 149, 199);
+    }
+  }
+  /* FIN  Estilo  S O C I A L   I C O N S */

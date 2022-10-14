@@ -1,0 +1,62 @@
+.programas__main {
+  background-image: url(../img/corazon_en_manos.jpg);
+  background-repeat: no-repeat;
+  background-position-x: end;
+  background-position-y: center;
+  background-size: cover;
+  width: 100vw;
+  &__wrapper {
+    width: 85vw;
+    margin-left: 45pt;
+    padding-top: 130px;
+    padding-bottom: 40px;
+    &__title {
+      color: #025ddc;
+      font-family: "Trocchi";
+      font-weight: normal;
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+      padding-bottom: 30px;
+    }
+    &__text {
+      &--parragraph {
+        font-family: "Lato Regular";
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.2px;
+        color: #54595f;
+        max-width: 600px;
+      }
+    }
+  }
+}
+.programas__section {
+  background-color: #e0ebff;
+  &__wrapper {
+    width: 90vw;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    &__card {
+      background-color: white;
+      padding: 50px 30px;
+      width: auto;
+      min-width: 300px;
+      height: auto;
+      &-title {
+        color:#13438D;
+      }
+      &-subtitle {
+        color: #54595f;
+      }
+      &-text {
+        font-family: "Lato Regular";
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.2px;
+        color: #54595f;
+      }
+    }
+  }
+}

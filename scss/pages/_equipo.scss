@@ -1,0 +1,83 @@
+.equipo__main {
+  background-color: #e0ebff;
+  &__wrapper {
+    width: 84vw;
+    margin-top: 10px;
+    margin-left: 11vw;
+    margin-bottom: 10vh;
+    padding-top: 135px;
+    padding-bottom: 30px;
+  }
+  &__title-2 {
+    font-family: "Trocchi";
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.4px;
+    color: #025ddc;
+  }
+  &__title-1 {
+    font-family: "Trocchi";
+    font-weight: normal;
+    font-size: 1.9rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.3px;
+    color: #104691;
+    padding-bottom: 10px;
+  }
+  &__parragraph {
+    font-family: "Lato Regular";
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.2px;
+    color: #54595f;
+  }
+}
+.equipo__staff {
+  margin-left: 45px;
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+  &__card__info {
+    display: flex;
+    flex-direction: column;
+    &--nombre {
+      font-family: "Trocchi";
+      font-weight: normal;
+      font-size: 28px;
+      line-height: 1rem;
+      letter-spacing: 0.5px;
+      color: #2166c1;
+      padding-top: 30px;
+    }
+    &--cargo {
+      font-family: "Lato Light";
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 3.3px;
+      color: #898989;
+    }
+    &--detalle {
+      font-family: "Lato Regular";
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 1.3rem;
+      letter-spacing: 0.3px;
+      color: #898989;
+    }
+    &--contacto {
+    color:#025ddc;
+    display: inline-block;
+    font-size: 1.5rem;
+    &:hover {
+        color: rgb(99, 149, 199);
+      }
+    }
+  }
+
+}
+.equipo__staff img {
+  height: 162px;
+}
