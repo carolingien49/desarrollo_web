@@ -3,6 +3,7 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+@import "./components/generales";
 @import "./components/navbar";
 @import "./components/footer";
 @import "./components/redes";
@@ -11,3 +12,8 @@
 @import "./pages/equipo";
 @import "./pages/programas";
 @import "./pages/sumate";
+@for $i from 1 to 10 {
+  .padding-#{$i} {
+    padding: 1rem * $i;
+  }
+}
