@@ -1,41 +1,27 @@
 .footer {
   background-color: #5683c3;
   color: white;
-  width: 100vw;
   &__wrapper {
-    width: 100vw;
-    display: flex;
-    flex-flow: row wrap;
+    max-width: 300px;
     padding: 25px 0 20px 50px;
     color: white;
-    font-family: "Lato Light";
-    font-weight: 300;
-    font-style: normal;
     &__datos__contacto {
       padding-top: 18px;
       font-size: 12px;
       letter-spacing: 1px;
       line-height: 6px;
-      & a {
-        color: white;
+      a:hover {
+        color: #d1e5feeb;
+        }
       }
     }
-  }
   &__legales {
+    max-width: 360px;
     padding: 0 25px 1px 50px;
-    font-family: "Lato Light";
-    font-weight: 300;
-    font-size: 11px;
     text-align: left;
     letter-spacing: 1px;
+    @media (min-width: 992px) {
+      max-width: 600px;
+    }
   }
-}
-
-@media (min-width: 992px) {
-  .footer__wrapper__datos__contacto a:hover {
-    color: #d1e5feeb;
-  }
-}
-.footer__legales {
-  padding-left: 50px;
 }

@@ -11,13 +11,10 @@
     ></script>
     <link rel="stylesheet" href="./css/style.css" />
     <title>iniciativa Armemos Equipo</title>
-    <meta
-      name="description"
-      content="Programas de prevención, formación y
+    <meta name="description" content="Programas de prevención, formación y
     atención a la salud mental y emocional de preadolescentes. A cargo de un
     equipo multidisciplinario con experiencia en tratamiento y prevención de
-    desórdenes alimentarios y otras manifestaciones asociadas."
-    />
+    desórdenes alimentarios y otras manifestaciones asociadas.">
   </head>
   <body>
     <header>
@@ -110,7 +107,9 @@
                 Juntos por las chicas y los chicos
               </h1>
               <p class="main__principal__wrapper--text">
-                Trabajamos por una infancia sana como prefacio de una sociedad plena. Programas de prevención y promoción de la salud de preadolescentes.
+                Trabajamos por una infancia sana como prefacio de una sociedad
+                plena. Programas de prevención y promoción de la salud de
+                preadolescentes.
               </p>
               <p class="main__principal__wrapper--text">
                 Si querés recibir nuestro newsletter mensual con las novedades
@@ -119,7 +118,7 @@
               <!-- Button trigger modal -->
               <button
                 type="button"
-                class="main__principal__wrapper--cta btn btn-light font-size-6"
+                class="main__principal__wrapper--cta btn btn-light"
                 data-bs-toggle="modal"
                 data-bs-target="#ventanaSuscribite"
               >
@@ -174,7 +173,7 @@
     <section class="manifiesto">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-5">
+          <div class="col-sm-5">
             <img
               class="manifiesto__img"
               src="./img/frase_sm_mobile_2.png"
@@ -193,7 +192,7 @@
                 adolescentes, sus familias y quienes los acompañan en el entorno
                 escolar.
               </p>
-              <p class=" pe-3 manifiesto__wrapper--paragraph">
+              <p class="manifiesto__wrapper--paragraph">
                 El objetivo de la prevención consiste en reducir la aparición y
                 el desarrollo de estos trastornos en las chicas y los chicos.
                 Para ello, se busca eliminar los factores de riesgo que
@@ -201,8 +200,8 @@
                 medida que se potencian los factores de protección que reducen
                 la posibilidad de padecerlos.
               </p>
-              <p class="btn mt-3 mb-5 px-4">
-                <a href="#">
+              <p class="btn btn-light rounded-pill btn-sm mt-3 mb-5 px-3">
+                <a href="#" class="manifiesto__wrapper__download">
                   MANIFIESTO</a
                 >
               </p>
@@ -228,7 +227,7 @@
     <!-- FIN Seccion INTERMEDIA -->
     <!-- INICIO Seccion OFRECEMOS -->
     <section class="ofrecemos">
-      <div class="ofrecemos__wrapper__card mx-auto">
+      <div class="ofrecemos__wrapper__card">
         <h3 class="ofrecemos__wrapper__card--title">
           Un grupo multidisciplinario de profesionales
         </h3>
@@ -258,35 +257,89 @@
       </div>
     </section>
     <!-- FIN Seccion OFRECEMOS -->
+    <!-- INICIO Seccion CONTACTO -->
+    <section class="contacto__wrapper">
+      <div class="container">
+        <form class="row g-3 ps-5 pe-1 pt-3 pb-4">
+          <div class="col-md-11">
+            <label for="Nombre completo" class="form-label ps-4 text-secondary"
+              >Nombre completo</label
+            >
+            <input
+              type="text"
+              style="width: 300px"
+              class="form-control rounded-pill"
+              id="nombreCompleto"
+            />
+          </div>
+          <div class="col-md-11">
+            <label for="inputEmail4" class="form-label ps-4 text-secondary"
+              >Email</label
+            >
+            <input
+              type="email"
+              style="width: 300px"
+              class="form-control rounded-pill"
+              id="inputEmail4"
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="inputConociste" class="form-label ps-4 text-secondary"
+              >Cómo nos conociste</label
+            >
+            <select
+              id="inputConociste"
+              style="width: 300px"
+              class="form-select ps-3 rounded-pill text-secondary"
+            >
+              <option selected>Elegí...</option>
+              <option>Redes sociales</option>
+              <option>Noticias</option>
+              <option>Publicidad</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label text-secondary" for="gridCheck">
+                Me interesa recibir el newsletter mensual.
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button
+              type="submit"
+              style="width: 80px"
+              class="btn btn-light text-primary rounded-pill btn-sm"
+            >
+              ENVIAR
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- FIN Seccion contacto -->
     <!-- INICIO Footer -->
     <footer class="footer">
       <div class="footer__wrapper">
         <div class="footer__wrapper__datos__contacto">
-          <p class="text-light font-weight-light">Información:</p>
+          <p>Información:</p>
           <p>
-            <a
-              class="text-light font-weight-light"
-              href="mailto:info@armemosequipo.org.ar"
+            <a href="mailto:info@armemosequipo.org.ar"
               >info@armemosequipo.org.ar
             </a>
           </p>
-          <p class="text-light font-weight-light">(+54)911 6014 1638</p>
-          <p class="text-light font-weight-light">
-            Fondos, donaciones y alianzas:
-          </p>
+          <p>(+54)911 6014 1638</p>
+          <p>Fondos, donaciones y alianzas:</p>
           <p>
-            <a
-              class="text-light font-weight-light"
-              href="mailto:info@armemosequipo.org.ar"
+            <a href="mailto:info@armemosequipo.org.ar"
               >socios@armemosequipo.org.ar</a
             >
           </p>
         </div>
       </div>
       <div class="footer__legales">
-        <p class="text-light font-weight-light">
-          Todos los derechos reservados para iniciativa Armemos Equipo.
-        </p>
+        <p>Todos los derechos reservados para iniciativa Armemos Equipo.</p>
       </div>
     </footer>
     <!-- FIN FOOTER -->

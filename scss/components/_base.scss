@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: unset;
+}
 ul,
 ol {
   font-style: normal;
@@ -35,4 +41,33 @@ a {
   src: url("../fonts/Lato/Lato-bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
+}
+.btn {
+  background-color: white;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: rgb(0, 136, 255);
+  :hover {
+    background-color: rgba(255,255,255,0.5);
+  }
+}
+h1,
+h2,
+h3 {
+  font-family: "Trocchi";
+  font-style: normal;
+  font-weight: normal;
+}
+p {
+  font-family: "Lato Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color:#4e555e;
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
 }

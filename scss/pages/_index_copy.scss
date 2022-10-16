@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: unset;
+  }
+  .main__principal {
+    background-image: url(../img/hamaca_vertical_3.jpg);
+    height: 100vh;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    @media (min-width: 768px) {
+      background-image: url(../img/hamaca_mirror.jpg);
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100vw;
+    }
+    &__wrapper--title {
+      color: #0a4091;
+      font-style: normal;
+      font-size: 32px;
+      font-family: "Trocchi";
+      padding: 120px 0 20px 0;
+      width: 85vw;
+      @media (min-width: 768px) {
+        font-size: 3rem;
+        padding: 200px 0 20px 10%;
+        width: 60vw;
+        max-width: 580px;
+      }
+    }
+    &__wrapper--text {
+      color: #092c5f;
+      font-style: normal;
+      font-size: 1rem;
+      font-family: "Lato Regular";
+      font-weight: 400;
+      padding-bottom: 2rem;
+      width: 80vw;
+      @media (min-width: 768px) {
+        font-size: 125%;
+        padding-bottom: 3rem;
+        width: 60vw;
+        padding-left: 10%;
+        max-width: 580px;
+      }
+    }
+    &__wrapper--cta {
+      font-style: normal;
+      font-size: 1.2rem;
+      font-family: "Lato Regular";
+      text-decoration: none;
+      color: #025ddc;
+      letter-spacing: 5px;
+      margin-left: -7pt;
+      background-color: transparent;
+      border: none;
+      @media (min-width: 768px) {
+        &__wrapper--cta {
+          margin-left: 9.2%;
+        }
+      }
+    }
+  }
+  .manifiesto {
+    background-color: #e0ebff;
+    height: auto;
+    &__img {
+      size: 100vw;
+      width: 90vw;
+      @media (min-width: 768px) {
+        width: 40vw;
+        padding-left: 7%;
+      }
+      @media (min-width: 992px) {
+        padding-left: 9%;
+      }
+    }
+    &__wrapper {
+      padding-top: 0.1%;
+      padding-left: 10%;
+      @media (min-width: 768px) {
+        padding-top: 7%;
+        padding-left: 1%;
+      }
+      &--slogan1 {
+        font-style: normal;
+        font-size: 200%;
+        font-family: "Trocchi";
+        color: #025ddc;
+        @media (min-width: 768px) {
+          font-size: 2.5rem;
+          width: 600px;
+        }
+      }
+      &--slogan2 {
+        color: #104691;
+        font-style: normal;
+        font-size: 242%;
+        font-family: "Trocchi";
+        @media (min-width: 768px) {
+          font-size: 3rem;
+          margin-bottom: 15px;
+          width: 600px;
+        }
+      }
+      &--paragraph {
+        color: #4e555e;
+        width: 75vw;
+        font-style: normal;
+        font-size: 1rem;
+        font-family: "Lato Regular";
+        font-weight: 400;
+        text-align: left;
+        @media (min-width: 768px) {
+          max-width: 400px;
+          font-size: 18px;
+        }
+        @media (min-width: 992px) {
+          max-width: 540px;
+        }
+      }
+      &__download {
+        color: #3a8cff;
+        font-style: normal;
+        font-size: 0.8rem;
+        font-family: "Lato Regular";
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-align: center;
+        height: 1.4rem;
+        &:hover {
+          color: #025ddcdc;
+        }
+      }
+    }
+  }
+  .intermedia {
+    background-color: #5683c3;
+    height: auto;
+    &__frase {
+      font-style: normal;
+      font-size: 150%;
+      font-family: "Trocchi";
+      font-style: normal;
+      text-align: center;
+      color: white;
+      letter-spacing: 2px;
+    }
+  }
+  .testimonio {
+    background-image: url(../img/manos.jpg);
+    height: 100vh;
+    overflow-x: hidden;
+    background-position-x: center;
+    background-size: cover;
+    &__wrapper__card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: rgb(150, 187, 252);
+      background: linear-gradient(
+        6deg,
+        rgba(150, 187, 252, 1) 0%,
+        rgba(217, 233, 255, 0.53) 100%
+      );
+      width: 84vw;
+      height: auto;
+      margin-left: 11vw;
+      margin-top: 30vw;
+      padding: 50px 27px;
+      color: #033364;
+      @media (min-width: 768px) {
+        width: 50vw;
+        height: auto;
+        padding: 45px 30px;
+      }
+      @media (min-width: 992px) {
+        width: 550px;
+        height: 50vh;
+        padding: 0 50px;
+      }
+      &--title {
+        color: #13438d;
+        font-size: 1.5rem;
+        font-family: "Trocchi";
+        font-weight: 400;
+        line-height: 2rem;
+        text-align: center;
+        padding-bottom: 15px;
+        @media (min-width: 768px) {
+          font-size: 1.8rem;
+          line-height: 2.4rem;
+        }
+        @media (min-width: 992px) {
+          font-size: 2rem;
+          line-height: 2.6rem;
+        }
+      }
+      &--paragraph {
+        font-style: normal;
+        font-size: 15px;
+        font-family: "Lato Regular";
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        line-height: 1.6;
+        text-align: center;
+        @media (min-width: 768px) {
+          line-height: 1.5;
+          padding: 0 27px;
+        }
+      }
+      &--btn {
+        color: #3a8cff;
+        font-style: normal;
+        font-family: "Lato Regular";
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-align: center;
+        @media (min-width: 992px) {
+          :hover {
+            color: #025ddcdc;
+          }
+        }
+      }
+    }
+  }
+  .contacto {
+    &__wrapper {
+      background-color: #e0ebff;
+      font-family: "Lato Regular";
+      font-weight: 400;
+      font-size: 15px;
+      letter-spacing: 0.8px;
+      line-height: 1.3rem;
+      padding-top: 20px;
+    }
+    img {
+      padding-top: 105px;
+      width: 100%;
+      overflow: hidden;
+      grid-area: foto_nena;
+    }
+  }
