@@ -5,41 +5,40 @@
   background-position-y: bottom;
   background-size: cover;
   height: 107vh;
-  @media (min-width: 768px) {
+  @media (min-width: $md-viewport) {
     background-image: url(../img/hamaca_mirror.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 73vh;
   }
-  @media (min-width: 992px) {
-      height: 65vh;
-      width: 100vw;
+  @media (min-width: $lg-viewport) {
+    height: 65vh;
+    width: 100vw;
   }
   &__wrapper {
     &--title {
-      color: #0a4091;
+      color: $primary;
       font-size: 32px;
       padding: 120px 0 20px 0;
       width: 85vw;
-      @media (min-width: 768px) {
+      @media (min-width: $md-viewport) {
         font-size: 36px;
         padding: 130px 0 20px 10%;
         width: 60vw;
         max-width: 450px;
       }
-      @media (min-width: 992px) {
-      font-size: 44px;
-      line-height: 50px;
-      min-width: 580px;
+      @media (min-width: $lg-viewport) {
+        font-size: 44px;
+        line-height: 50px;
+        min-width: 580px;
       }
     }
     &--text {
-      color: #092c5f;
+      color: $primary;
       font-style: normal;
       font-size: 1rem;
       line-height: 1.5rem;
-      font-family: "Lato Regular";
       font-weight: 400;
       width: 80vw;
       max-width: 300px;
@@ -54,36 +53,36 @@
     }
     &--cta {
       font-style: normal;
+      font-weight: 400;
       font-size: 1.2rem;
-      font-family: "Lato Regular";
       text-decoration: none;
-      color: #025ddc;
+      color: $secondary;
       letter-spacing: 5px;
       margin-left: -7pt;
       background-color: transparent;
       border: none;
-        @media (min-width: 768px) {
+      @media (min-width: $md-viewport) {
         margin-left: 9.2%;
-        }
+      }
     }
   }
 }
 .manifiesto {
-  background-color: #e0ebff;
+  background-color: $pale-blue;
   height: auto;
   &__img {
     size: 100vw;
     width: 90vw;
-    @media (min-width: 576px) {
+    @media (min-width: $sm-viewport) {
       width: 50vw;
       padding-left: 7%;
       padding-top: 3%;
     }
-    @media (min-width: 768px) {
+    @media (min-width: $md-viewport) {
       width: 40vw;
       padding-left: 7%;
     }
-    @media (min-width: 992px) {
+    @media (min-width: $lg-viewport) {
       width: 45vw;
       padding-left: 9%;
       padding-top: 0;
@@ -95,30 +94,30 @@
     padding-top: 3%;
     &--slogan1 {
       font-size: 1.9rem;
-      color: #025ddc;
+      color: $secondary;
       margin-left: 10px;
-      @media (min-width: 576px) {
+      @media (min-width: $sm-viewport) {
         padding-left: 10px;
         padding-top: 7%;
       }
-      @media (min-width: 768px) {
+      @media (min-width: $md-viewport) {
         font-size: 2.5rem;
         margin-left: 0;
         padding-left: 0%;
         padding-top: 2%;
       }
-      @media (min-width: 992px) {
+      @media (min-width: $lg-viewport) {
         padding-top: 5%;
       }
     }
     &--slogan2 {
-      color: #104691;
+      color: $blue;
       font-size: 2.3rem;
       margin-left: 10px;
-      @media (min-width: 576px) {
+      @media (min-width: $sm-viewport) {
         padding-left: 10px;
       }
-      @media (min-width: 768px) {
+      @media (min-width: $md-viewport) {
         font-size: 3rem;
         margin-bottom: 15px;
         margin-left: 0;
@@ -126,14 +125,14 @@
       }
     }
     &--paragraph {
-      color: #4e555e;
+      color: $gray-700;
       text-align: left;
       margin-left: 10px;
-      @media (min-width: 576px) {
+      @media (min-width: $sm-viewport) {
         margin-right: 20;
         padding-left: 10px;
       }
-      @media (min-width: 768px) {
+      @media (min-width: $md-viewport) {
         margin-left: 0;
         max-width: 450px;
         margin-right: 20%;
@@ -143,7 +142,7 @@
   }
 }
 .intermedia {
-  background-color: #5683c3;
+  background-color: $light-blue;
   height: auto;
   &__frase {
     font-style: normal;
@@ -161,8 +160,8 @@
   overflow-x: hidden;
   background-position-x: center;
   background-size: cover;
-  @media (min-width: 768px) {
-    height: 70Vh;
+  @media (min-width: $md-viewport) {
+    height: 70vh;
   }
   &__wrapper__card {
     display: flex;
@@ -178,20 +177,20 @@
     height: 400px;
     margin-block: 20px;
     padding: 30px 20px;
-    color: #033364;
+    color: $primary;
     height: auto;
-    @media (min-width: 768px) {
+    @media (min-width: $md-viewport) {
       width: 50vw;
       padding: 45px 30px;
       margin-block: 100px;
     }
-    @media (min-width: 992px) {
+    @media (min-width: $lg-viewport) {
       width: 550px;
       height: 570px;
       padding: 0 50px;
     }
     &--title {
-      color: #13438d;
+      color: $blue;
       font-size: 1.5rem;
       font-family: "Trocchi";
       font-weight: 400;
@@ -199,11 +198,11 @@
       text-align: center;
       padding-bottom: 15px;
       padding-top: 20px;
-      @media (min-width: 768px) {
+      @media (min-width: $md-viewport) {
         font-size: 1.8rem;
         line-height: 2.4rem;
       }
-      @media (min-width: 992px) {
+      @media (min-width: $lg-viewport) {
         font-size: 2rem;
         line-height: 2.6rem;
       }
@@ -225,8 +224,7 @@
 }
 .contacto {
   &__wrapper {
-    background-color: #e0ebff;
-    font-family: "Lato Regular";
+    background-color: $pale-blue;
     font-weight: 400;
     font-size: 15px;
     letter-spacing: 0.8px;
