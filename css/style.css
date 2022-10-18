@@ -8398,7 +8398,8 @@ ol {
   list-style: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #025ddc; }
 
 @font-face {
   font-family: "Trocchi";
@@ -8538,8 +8539,7 @@ p {
       height: 73vh; } }
   @media (min-width: 992px) {
     .main__principal {
-      height: 65vh;
-      width: 100vw; } }
+      height: 65vh; } }
   .main__principal__wrapper--title {
     color: #092c5f;
     font-size: 32px;
