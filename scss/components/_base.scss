@@ -43,18 +43,6 @@ a {
   font-style: normal;
   font-weight: 700;
 }
-.btn {
-  background-color: white;
-  border-radius: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 15px;
-  letter-spacing: 3px;
-  color: rgb(0, 136, 255);
-  :hover {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-}
 h1,
 h2,
 h3 {
@@ -70,5 +58,40 @@ p {
   color: #4e555e;
   @media (min-width: 768px) {
     font-size: 16px;
+  }
+}
+.text-light {
+  font-family: "Lato Light";
+  font-weight: 300;
+  font-size: 13px;
+}
+.form-control {
+  background-color: white;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 10%;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border: none;
+  background-color: $pale-blue;
+}
+.btn {
+  background-color: white;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10%;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: rgb(0, 136, 255);
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(0, 136, 255);
+  }
+  & .submit {
+    background-color: $light-blue;
+  }
+  &.submit:hover {
+    background-color: $light-green;
   }
 }

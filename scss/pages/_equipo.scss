@@ -36,7 +36,7 @@
 }
 .equipo__staff {
   margin-left: 45px;
-  width: 85vw;
+  width: 84vw;
   display: flex;
   flex-direction: row;
   &__card__info {
@@ -45,10 +45,10 @@
     &--nombre {
       font-family: "Trocchi";
       font-weight: normal;
-      font-size: 28px;
+      font-size: 25px;
       line-height: 1rem;
       letter-spacing: 0.5px;
-      color: #2166c1;
+      color: $secondary;
       padding-top: 30px;
     }
     &--cargo {
@@ -65,7 +65,7 @@
       font-size: 17px;
       line-height: 1.3rem;
       letter-spacing: 0.3px;
-      color: #898989;
+      color: $gray-600;
     }
     &--contacto {
     color:#025ddc;

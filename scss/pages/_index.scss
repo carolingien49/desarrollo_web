@@ -14,7 +14,7 @@
   }
   @media (min-width: $lg-viewport) {
     height: 65vh;
-   }
+  }
   &__wrapper {
     &--title {
       color: $primary;
@@ -65,6 +65,9 @@
       border: none;
       @media (min-width: $md-viewport) {
         margin-left: 9.2%;
+      }
+      & :hover {
+        background-color: transparent;
       }
     }
   }
@@ -141,6 +144,10 @@
         padding-left: 0%;
       }
     }
+    & .btn:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+      color: $light-green;
+    }
   }
 }
 .intermedia {
@@ -154,6 +161,8 @@
     text-align: center;
     color: white;
     letter-spacing: 2px;
+    margin-left: 18px;
+    margin-right: 18px;
   }
 }
 .ofrecemos {
@@ -232,19 +241,39 @@
     }
   }
 }
-.contacto {
-  &__wrapper {
-    background-color: $pale-blue;
-    font-weight: 400;
-    font-size: 15px;
-    letter-spacing: 0.8px;
-    line-height: 1.3rem;
-    padding-top: 20px;
+.modal {
+  &-dialog {
+    min-width: 300px;
+    max-width: 350px;
+    @media (min-width: $sm-viewport) {
+      min-width: 450px;
+    }
   }
-  img {
-    padding-top: 105px;
-    width: 100%;
-    overflow: hidden;
-    grid-area: foto_nena;
+  &-title {
+    margin-top: -5px;
+    margin-bottom: -12px;
+    padding-left: 9px;
+  }
+  &-body {
+    padding-left: 20px;
+    padding-right: 20px;
+    & p {
+      padding-left: 5px;
+    }
   }
 }
+#button-addon2 {
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: $secondary;
+  border: solid 1px;
+  border-color: $pale-blue;
+  color: $blue;
+  &:hover {
+    background-color: #bad1fc;
+  }
+}
+

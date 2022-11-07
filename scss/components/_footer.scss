@@ -1,27 +1,36 @@
 .footer {
   background-color: #5683c3;
   color: white;
+  margin-bottom: 0;
+  padding-top: 25px;
   &__wrapper {
-    max-width: 300px;
-    padding: 25px 0 20px 50px;
+    padding: 25px auto 15px 10%;
     color: white;
+    max-width: 300 px;
+    @media (min-width: $md-viewport) {
+      max-width: auto;
+    }
     &__datos__contacto {
-      padding-top: 18px;
-      font-size: 12px;
-      letter-spacing: 1px;
-      line-height: 6px;
-      a:hover {
-        color: #d1e5feeb;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+      & a:hover {
+        color: $light-green;
+      }
+      &--suscripcion {
+        font-family: "Lato regular";
+        font-weight: 400;
+        max-width: 400px;
       }
     }
   }
   &__legales {
-    max-width: 360px;
-    padding: 0 25px 1px 50px;
+    background-color: $blue-dark;
+    height: auto;
+    padding: 3px 50px;
+    letter-spacing: 1.5px;
     text-align: left;
-    letter-spacing: 1px;
-    @media (min-width: 992px) {
-      max-width: 600px;
+    @media (min-width: $lg-viewport) {
+      text-align: center;
     }
   }
 }

@@ -1,35 +1,80 @@
 .desafio__main {
-  background-color: #e3e2d4;
+  background-image: url(../img/corazon_nena_atarceder.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: cover;
+  height: 107vh;
+  @media (min-width: $md-viewport) {
+    background-image: url(../img/corazon_nena_atarceder.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 73vh;
+  }
+  @media (min-width: $lg-viewport) {
+    height: 65vh;
+  }
   &__wrapper {
-    width: 85vw;
-    margin-left: 45pt;
-    padding-top: 130px;
-    padding-bottom: 40px;
-    &__title {
+    &--title {
       color: $secondary;
-      font-family: "Trocchi";
-      font-weight: normal;
-      font-size: 2.5rem;
-      line-height: 2.5rem;
-      padding-bottom: 30px;
-    }
-    &__subtitle {
-      color: $secondary;
-      font-family: "Trocchi";
-      font-weight: normal;
-      font-size: 1.5rem;
-      line-height: 2rem;
-    }
-    &__text {
-      &--parragraph {
-        font-family: "Lato Regular";
-        font-weight: normal;
-        font-size: 0.9rem;
-        line-height: 1.2rem;
-        letter-spacing: 0.2px;
-        color: #54595f;
-        max-width: 600px;
+      font-size: 32px;
+      padding: 120px 0 20px 0;
+      width: 85vw;
+      @media (min-width: $md-viewport) {
+        font-size: 36px;
+        padding: 130px 0 20px 10%;
+        width: 60vw;
+        max-width: 450px;
+      }
+      @media (min-width: $lg-viewport) {
+        font-size: 44px;
+        line-height: 50px;
+        min-width: 580px;
       }
     }
+    &--text {
+      color: $primary;
+      font-style: normal;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      font-weight: 400;
+      width: 80vw;
+      max-width: 300px;
+      @media (min-width: 768px) {
+        font-size: 18px;
+        padding-left: 10%;
+        max-width: 400px;
+      }
+      @media (min-width: 992px) {
+        max-width: 450px;
+      }
+      @media (min-width: 1400px) {
+        max-width: 580px;
+      }
+    }
+  }
+}
+.container .desafio__campanias {
+  background-color: #f4eed4;
+}
+.desafio__campanias__wrapper {
+  &__subtitle {
+    color: $secondary;
+    font-family: "Trocchi";
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  &__text {
+    &--parragraph {
+      font-family: "Lato Regular";
+      font-weight: normal;
+      letter-spacing: 0.2px;
+      color: #54595f;
+      max-width: 600px;
+    }
+  }
+  &__image {
   }
 }
