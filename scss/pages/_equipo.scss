@@ -1,10 +1,13 @@
 .equipo__main {
-  background-color: #e0ebff;
+  background-image: url(../img/choquemos_5.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
   &__wrapper {
     width: 84vw;
     margin-top: 10px;
     margin-left: 11vw;
-    margin-bottom: 10vh;
     padding-top: 135px;
     padding-bottom: 30px;
   }
@@ -14,7 +17,7 @@
     font-size: 1.3rem;
     line-height: 1.5rem;
     letter-spacing: 0.4px;
-    color: #025ddc;
+    color: $secondary;
   }
   &__title-1 {
     font-family: "Trocchi";
@@ -22,7 +25,7 @@
     font-size: 1.9rem;
     line-height: 1.9rem;
     letter-spacing: 0.3px;
-    color: #104691;
+    color: $blue;
     padding-bottom: 10px;
   }
   &__parragraph {
@@ -31,17 +34,26 @@
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.2px;
-    color: #54595f;
+    color: $gray-700;
+    max-width: 580px;
   }
 }
 .equipo__staff {
-  margin-left: 45px;
-  width: 84vw;
   display: flex;
   flex-direction: row;
+  margin-left: 11vw;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  width: 80vw;
+  & .card {
+    background-color: white;
+    max-width: 600px;
+    min-width: 470px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+  }
   &__card__info {
-    display: flex;
-    flex-direction: column;
+    padding-bottom: 30px;
     &--nombre {
       font-family: "Trocchi";
       font-weight: normal;
@@ -57,27 +69,33 @@
       font-size: 15px;
       line-height: 25px;
       letter-spacing: 3.3px;
-      color: #898989;
+      color: $gray-600;
     }
     &--detalle {
       font-family: "Lato Regular";
       font-weight: 400;
       font-size: 17px;
-      line-height: 1.3rem;
+      line-height: 1.5rem;
       letter-spacing: 0.3px;
       color: $gray-600;
+      padding-right: 5%;
+      padding-left: 50px;
     }
     &--contacto {
-    color:#025ddc;
-    display: inline-block;
-    font-size: 1.5rem;
-    &:hover {
-        color: rgb(99, 149, 199);
+      color: $blue;
+      display: inline-block;
+      font-size: 1.5rem;
+      padding-right: 20px;
+      padding-left: 62px;
+      &:hover {
+        color: $light-blue;
       }
     }
   }
-
 }
 .equipo__staff img {
   height: 162px;
+  padding-top: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
 }

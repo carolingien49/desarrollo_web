@@ -8506,12 +8506,16 @@ p {
   margin-bottom: 0;
   padding-top: 25px; }
   .footer__wrapper {
-    padding: 25px auto 15px 10%;
+    padding: 25px auto 10% 10%;
     color: white;
     max-width: 300 px; }
     @media (min-width: 768px) {
       .footer__wrapper {
-        max-width: auto; } }
+        max-width: auto;
+        padding-left: 20%; } }
+    @media (min-width: 992px) {
+      .footer__wrapper {
+        padding-left: 5%; } }
     .footer__wrapper__datos__contacto {
       font-size: 15px;
       letter-spacing: 1.5px; }
@@ -8808,12 +8812,12 @@ p {
     background-color: #bad1fc; }
 
 .desafio__main {
-  background-image: url(../img/corazon_nena_atarceder.jpg);
+  background-image: url(../img/corazon_nena_atarceder_vertical_2.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
-  background-position-y: bottom;
+  background-position-y: center;
   background-size: cover;
-  height: 107vh; }
+  height: 100vh; }
   @media (min-width: 768px) {
     .desafio__main {
       background-image: url(../img/corazon_nena_atarceder.jpg);
@@ -8827,32 +8831,35 @@ p {
   .desafio__main__wrapper--title {
     color: #025ddc;
     font-size: 32px;
-    padding: 120px 0 20px 0;
+    padding: 80px 0 10px 0;
     width: 85vw; }
     @media (min-width: 768px) {
       .desafio__main__wrapper--title {
         font-size: 36px;
-        padding: 130px 0 20px 10%;
+        padding-top: 110px;
+        padding-bottom: 20px;
+        padding-left: 5%;
         width: 60vw;
         max-width: 450px; } }
     @media (min-width: 992px) {
       .desafio__main__wrapper--title {
         font-size: 44px;
         line-height: 50px;
-        min-width: 580px; } }
+        min-width: 580px;
+        padding-top: 120px; } }
   .desafio__main__wrapper--text {
     color: #092c5f;
     font-style: normal;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
     font-weight: 400;
     width: 80vw;
     max-width: 300px; }
     @media (min-width: 768px) {
       .desafio__main__wrapper--text {
-        font-size: 18px;
-        padding-left: 10%;
-        max-width: 400px; } }
+        font-size: 20px;
+        max-width: 300px;
+        padding-left: 5%; } }
     @media (min-width: 992px) {
       .desafio__main__wrapper--text {
         max-width: 450px; } }
@@ -8863,27 +8870,64 @@ p {
 .container .desafio__campanias {
   background-color: #f4eed4; }
 
-.desafio__campanias__wrapper__subtitle {
-  color: #025ddc;
-  font-family: "Trocchi";
-  font-weight: normal;
-  font-size: 1.5rem;
-  line-height: 2rem; }
-
-.desafio__campanias__wrapper__text--parragraph {
-  font-family: "Lato Regular";
-  font-weight: normal;
-  letter-spacing: 0.2px;
-  color: #54595f;
-  max-width: 600px; }
+.desafio__campanias__wrapper {
+  max-width: 80%;
+  margin: auto; }
+  @media (min-width: 576px) {
+    .desafio__campanias__wrapper {
+      max-width: 90%; } }
+  @media (min-width: 768px) {
+    .desafio__campanias__wrapper {
+      max-width: 100%; } }
+  @media (min-width: 992px) {
+    .desafio__campanias__wrapper {
+      justify-content: center;
+      gap: 25px; } }
+  @media (min-width: 576px) {
+    .desafio__campanias__wrapper__text {
+      max-width: 100%;
+      margin: auto; } }
+  @media (min-width: 768px) {
+    .desafio__campanias__wrapper__text {
+      max-width: 65%; } }
+  @media (min-width: 992px) {
+    .desafio__campanias__wrapper__text {
+      padding: 0;
+      margin: 0%;
+      width: 420px; } }
+  .desafio__campanias__wrapper__text--subtitle {
+    color: #025ddc;
+    font-family: "Trocchi";
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 35px 0 10px 0; }
+  .desafio__campanias__wrapper__text--parragraph {
+    font-family: "Lato Regular";
+    font-weight: normal;
+    letter-spacing: 0.2px;
+    color: #54595f; }
+  .desafio__campanias__wrapper__image {
+    padding: 15px 0; }
+    @media (min-width: 768px) {
+      .desafio__campanias__wrapper__image {
+        max-width: 65%;
+        margin: auto; } }
+    @media (min-width: 992px) {
+      .desafio__campanias__wrapper__image {
+        margin: 0;
+        max-width: 505px; } }
 
 .equipo__main {
-  background-color: #e0ebff; }
+  background-image: url(../img/choquemos_5.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: cover; }
   .equipo__main__wrapper {
     width: 84vw;
     margin-top: 10px;
     margin-left: 11vw;
-    margin-bottom: 10vh;
     padding-top: 135px;
     padding-bottom: 30px; }
   .equipo__main__title-2 {
@@ -8907,16 +8951,24 @@ p {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.2px;
-    color: #54595f; }
+    color: #4e555e;
+    max-width: 580px; }
 
 .equipo__staff {
-  margin-left: 45px;
-  width: 84vw;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  margin-left: 11vw;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  width: 80vw; }
+  .equipo__staff .card {
+    background-color: white;
+    max-width: 600px;
+    min-width: 470px;
+    margin-right: 50px;
+    margin-bottom: 40px; }
   .equipo__staff__card__info {
-    display: flex;
-    flex-direction: column; }
+    padding-bottom: 30px; }
     .equipo__staff__card__info--nombre {
       font-family: "Trocchi";
       font-weight: normal;
@@ -8931,23 +8983,30 @@ p {
       font-size: 15px;
       line-height: 25px;
       letter-spacing: 3.3px;
-      color: #898989; }
+      color: #6c757d; }
     .equipo__staff__card__info--detalle {
       font-family: "Lato Regular";
       font-weight: 400;
       font-size: 17px;
-      line-height: 1.3rem;
+      line-height: 1.5rem;
       letter-spacing: 0.3px;
-      color: #6c757d; }
+      color: #6c757d;
+      padding-right: 5%;
+      padding-left: 50px; }
     .equipo__staff__card__info--contacto {
-      color: #025ddc;
+      color: #104691;
       display: inline-block;
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      padding-right: 20px;
+      padding-left: 62px; }
       .equipo__staff__card__info--contacto:hover {
-        color: #6395c7; }
+        color: #5683c3; }
 
 .equipo__staff img {
-  height: 162px; }
+  height: 162px;
+  padding-top: 40px;
+  margin-right: 10px;
+  margin-left: 10px; }
 
 .programas__main {
   background-image: url(../img/corazon_en_manos.jpg);

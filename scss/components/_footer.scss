@@ -4,11 +4,15 @@
   margin-bottom: 0;
   padding-top: 25px;
   &__wrapper {
-    padding: 25px auto 15px 10%;
+    padding: 25px auto 10% 10%;
     color: white;
     max-width: 300 px;
     @media (min-width: $md-viewport) {
       max-width: auto;
+      padding-left: 20%;
+    }
+    @media (min-width: $lg-viewport) {
+      padding-left: 5%;
     }
     &__datos__contacto {
     font-size: 15px;
