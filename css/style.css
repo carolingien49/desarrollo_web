@@ -8922,7 +8922,7 @@ p {
   background-image: url(../img/choquemos_5.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
-  background-position-y: bottom;
+  background-position-y: top;
   background-size: cover; }
   .equipo__main__wrapper {
     width: 84vw;
@@ -8951,8 +8951,16 @@ p {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.2px;
-    color: #4e555e;
-    max-width: 580px; }
+    color: #4e555e; }
+    @media (min-width: 576px) {
+      .equipo__main__parragraph {
+        max-width: 490px; } }
+    @media (min-width: 768px) {
+      .equipo__main__parragraph {
+        max-width: 530px; } }
+    @media (min-width: 992px) {
+      .equipo__main__parragraph {
+        max-width: 580px; } }
 
 .equipo__staff {
   display: flex;
@@ -8963,12 +8971,17 @@ p {
   width: 80vw; }
   .equipo__staff .card {
     background-color: white;
-    max-width: 600px;
-    min-width: 470px;
-    margin-right: 50px;
     margin-bottom: 40px; }
+    @media (min-width: 576px) {
+      .equipo__staff .card {
+        margin-right: 50px;
+        max-width: 600px;
+        min-width: 470px; } }
   .equipo__staff__card__info {
-    padding-bottom: 30px; }
+    padding-bottom: 5px; }
+    @media (min-width: 576px) {
+      .equipo__staff__card__info {
+        padding-bottom: 30px; } }
     .equipo__staff__card__info--nombre {
       font-family: "Trocchi";
       font-weight: normal;
@@ -8976,14 +8989,20 @@ p {
       line-height: 1rem;
       letter-spacing: 0.5px;
       color: #025ddc;
-      padding-top: 30px; }
+      text-align: left; }
+      @media (min-width: 576px) {
+        .equipo__staff__card__info--nombre {
+          padding-top: 30px; } }
     .equipo__staff__card__info--cargo {
       font-family: "Lato Light";
       font-weight: 300;
       font-size: 15px;
       line-height: 25px;
-      letter-spacing: 3.3px;
+      letter-spacing: 1.7px;
       color: #6c757d; }
+      @media (min-width: 576px) {
+        .equipo__staff__card__info--cargo {
+          letter-spacing: 3.3px; } }
     .equipo__staff__card__info--detalle {
       font-family: "Lato Regular";
       font-weight: 400;
@@ -9003,10 +9022,13 @@ p {
         color: #5683c3; }
 
 .equipo__staff img {
+  display: inline-block;
   height: 162px;
-  padding-top: 40px;
-  margin-right: 10px;
-  margin-left: 10px; }
+  padding-top: 40px; }
+  @media (min-width: 576px) {
+    .equipo__staff img {
+      margin-right: 10px;
+      margin-left: 10px; } }
 
 .programas__main {
   background-image: url(../img/corazon_en_manos.jpg);

@@ -2,7 +2,7 @@
   background-image: url(../img/choquemos_5.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
-  background-position-y: center;
+  background-position-y: top;
   background-size: cover;
   &__wrapper {
     width: 84vw;
@@ -35,7 +35,15 @@
     line-height: 1.5rem;
     letter-spacing: 0.2px;
     color: $gray-700;
-    max-width: 580px;
+    @media (min-width: $sm-viewport) {
+      max-width: 490px;
+    }
+    @media (min-width: $md-viewport) {
+      max-width: 530px;
+    }
+    @media (min-width: $lg-viewport) {
+      max-width: 580px;
+    }
   }
 }
 .equipo__staff {
@@ -47,13 +55,18 @@
   width: 80vw;
   & .card {
     background-color: white;
-    max-width: 600px;
-    min-width: 470px;
-    margin-right: 50px;
     margin-bottom: 40px;
+    @media (min-width: $sm-viewport) {
+      margin-right: 50px;
+      max-width: 600px;
+      min-width: 470px;
+    }
   }
   &__card__info {
-    padding-bottom: 30px;
+    padding-bottom: 5px;
+    @media (min-width: $sm-viewport) {
+      padding-bottom: 30px;
+    }
     &--nombre {
       font-family: "Trocchi";
       font-weight: normal;
@@ -61,15 +74,21 @@
       line-height: 1rem;
       letter-spacing: 0.5px;
       color: $secondary;
-      padding-top: 30px;
+      text-align: left;
+      @media (min-width: $sm-viewport) {
+        padding-top: 30px;
+      }
     }
     &--cargo {
       font-family: "Lato Light";
       font-weight: 300;
       font-size: 15px;
       line-height: 25px;
-      letter-spacing: 3.3px;
+      letter-spacing: 1.7px;
       color: $gray-600;
+      @media (min-width: $sm-viewport) {
+        letter-spacing: 3.3px;
+      }
     }
     &--detalle {
       font-family: "Lato Regular";
@@ -94,8 +113,11 @@
   }
 }
 .equipo__staff img {
+  display: inline-block;
   height: 162px;
   padding-top: 40px;
-  margin-right: 10px;
-  margin-left: 10px;
+  @media (min-width: $sm-viewport) {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
