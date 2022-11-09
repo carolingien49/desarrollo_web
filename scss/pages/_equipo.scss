@@ -1,15 +1,42 @@
 .equipo__main {
-  background-image: url(../img/choquemos_5.jpg);
+  background-image: url(../img/choquemos_los_5_vertical_2.jpg);
   background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: top;
   background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+  height: 140vh;
+  @media (min-width: $sm-viewport) {
+    height: 100vh;
+    background-position-y: center;
+  }
+  @media (min-width: $md-viewport) {
+    background-image: url(../img/choquemos_los_5_vertical.webp);
+    background-position-x: center;
+    background-position-x: top;
+    height: 110vh;
+  }
+  @media (min-width: $lg-viewport) {
+    background-image: url(../img/choquemos_los_5.jpg);
+    background-position-y: center;
+    background-position-x: center;
+    height: 60vh;
+  }
   &__wrapper {
     width: 84vw;
     margin-top: 10px;
     margin-left: 11vw;
     padding-top: 135px;
     padding-bottom: 30px;
+    @media (min-width: $md-viewport) {
+      width: 55vw;
+      margin-left: 25vw;
+      margin-right: 20vw;
+      @media (min-width: $lg-viewport) {
+        width: 40vw;
+        margin-left: 12vw;
+        margin-right: 38vw;
+      }
+    }
   }
   &__title-2 {
     font-family: "Trocchi";
@@ -40,9 +67,11 @@
     }
     @media (min-width: $md-viewport) {
       max-width: 530px;
+      line-height: 1.7rem;
     }
     @media (min-width: $lg-viewport) {
       max-width: 580px;
+      line-height: 1.5rem;
     }
   }
 }

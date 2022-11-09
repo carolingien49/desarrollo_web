@@ -4,7 +4,7 @@
   background-position-x: end;
   background-position-y: top;
   background-size: cover;
-    @media (min-width: $sm-viewport) {
+  @media (min-width: $sm-viewport) {
     background-image: url(../img/corazon_en_manos_intermedia.jpg);
     background-position-y: top;
   }
@@ -19,10 +19,12 @@
     padding-bottom: 40px;
     @media (min-width: $md-viewport) {
       margin-left: 45pt;
-      padding-top: 200px;}
+      padding-top: 200px;
+    }
     @media (min-width: $lg-viewport) {
       margin-left: 45pt;
-      padding-top: 140px;}
+      padding-top: 140px;
+    }
     &__title {
       color: $secondary;
       font-family: "Trocchi";
