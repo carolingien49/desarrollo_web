@@ -5,6 +5,9 @@
   @media (min-width: $sm-viewport) {
     padding-top: 12vh;
   }
+  @media (min-width: $lg-viewport) {
+    padding-top: 16vh;
+  }
   &__title {
     color: #025ddc;
     font-style: normal;

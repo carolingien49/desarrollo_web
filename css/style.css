@@ -9157,6 +9157,9 @@ p {
   @media (min-width: 576px) {
     .contacto__main {
       padding-top: 12vh; } }
+  @media (min-width: 992px) {
+    .contacto__main {
+      padding-top: 16vh; } }
   .contacto__main__title {
     color: #025ddc;
     font-style: normal;
