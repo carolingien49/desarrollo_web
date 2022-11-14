@@ -1,9 +1,10 @@
 /* Estilo PAGINA SUMATE */
 .contacto__main {
-  width: 100vw;
-  padding-top: 16vh;
+  padding-top: 9vh;
   background-color: #e0ebff;
-  height: auto;
+  @media (min-width: $sm-viewport) {
+    padding-top: 12vh;
+  }
   &__title {
     color: #025ddc;
     font-style: normal;
@@ -13,7 +14,7 @@
   }
   &__paragraph {
     color: #4e555e;
-    width: 75vw;
+    width: 79vw;
     max-width: 650px;
     font-style: normal;
     font-size: 1rem;
@@ -23,45 +24,49 @@
   }
 }
 .contacto__card__wrapper {
-  width: 95vw;
   &__width {
-    width: 30%;
-    min-width: 270px;
+    width: 270px;
   }
   &__cards {
     height: 100%;
-    padding: 25px 30px 10px 30px;
+    padding: 10px 30px 10px 30px;
     &__title {
       color: #025ddc;
       font-style: normal;
       font-size: 1.4rem;
-      font-family: "Lato Bold";
-      font-weight: 700;
+      font-family: "Trocchi";
+      font-weight: 400;
       text-align: left;
-      padding: 8pt 0 4pt;
+      padding: 25pt 0 4pt;
       text-align: center;
     }
     &__paragraph {
       font-style: normal;
       font-size: 16px;
-      font-family: "Lato italic";
+      font-family: "Lato Regular";
       font-weight: 400;
-      letter-spacing: 0.3px;
-      line-height: 24px;
+      line-height: 1.7rem;
       text-align: center;
       color: #4e555e;
     }
-}
+  }
 }
 .contacto__form {
-  padding: 0 10px 10px 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  max-width: 350px;
 }
 .contacto__formulario {
-  width: 100vw;
-  padding-left: 10vw;
+  background-color: $pale-blue;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 7vh;
+  margin: auto;
+  justify-items: center;
   &__paragraph {
     color: #1a66d0;
-    width: 75vw;
+    width: 75%;
     font-style: normal;
     font-size: 16px;
     font-family: "Trocchi";
@@ -70,8 +75,9 @@
     margin-left: 6px;
   }
   &__input {
-    margin: 15px 0 3px;
-    width: 300px;
+    margin: 15px 0 3px 0;
+    width: 80%;
+    max-width: 350px;
     color: #4e555e;
     font-size: 13px;
     height: 30px;
@@ -79,8 +85,9 @@
     padding-left: 6px;
     letter-spacing: 0.5px;
     &-textarea {
-      margin: 17px 0 3px;
-      width: 300px;
+      margin: 15px 0 3px 0;
+      width: 80%;
+      max-width: 350px;
       font-size: 13px;
       border: #b6d3fc solid 1px;
       padding-left: 6px;
@@ -94,6 +101,8 @@
     color: #1a66d0;
     letter-spacing: 0.5px;
     padding-left: 5px;
+    width: 80%;
+    max-width: 350px;
   }
   &-btn {
     background-color: #dfecfd;
@@ -112,10 +121,9 @@
 .nos__apoyan {
   background-color: white;
   height: auto;
-  width: 100vw;
-  display: grid;
-  grid-template-rows: 0.5fr 2fr;
-  padding: 40px 0 25px;
+  width: 90vw;
+  margin: auto;
+  padding: 40px 0 25px 0;
   &__title {
     color: #104691;
     font-style: normal;
@@ -127,13 +135,13 @@
     text-align: center;
   }
   &__wrapper {
-    width: 600px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-self: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
     margin: auto;
+    width: 90%;
     img {
+      display: inline-block;
       width: 120px;
     }
   }
