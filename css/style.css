@@ -9152,23 +9152,17 @@ p {
 
 /* Estilo PAGINA SUMATE */
 .contacto__main {
-  padding-top: 9vh;
-  background-color: #e0ebff; }
-  @media (min-width: 576px) {
-    .contacto__main {
-      padding-top: 12vh; } }
-  @media (min-width: 992px) {
-    .contacto__main {
-      padding-top: 16vh; } }
+  background-color: white; }
   .contacto__main__title {
     color: #025ddc;
     font-style: normal;
     font-size: 32px;
     font-family: "Trocchi";
-    width: 85vw; }
+    width: 100%;
+    padding-top: 20%; }
   .contacto__main__paragraph {
     color: #4e555e;
-    width: 79vw;
+    width: 90%;
     max-width: 650px;
     font-style: normal;
     font-size: 1rem;
@@ -9176,29 +9170,35 @@ p {
     font-weight: 400;
     text-align: left; }
 
-.contacto__card__wrapper__width {
-  width: 270px; }
-
-.contacto__card__wrapper__cards {
-  height: 100%;
-  padding: 10px 30px 10px 30px; }
-  .contacto__card__wrapper__cards__title {
-    color: #025ddc;
-    font-style: normal;
-    font-size: 1.4rem;
-    font-family: "Trocchi";
-    font-weight: 400;
-    text-align: left;
-    padding: 25pt 0 4pt;
-    text-align: center; }
-  .contacto__card__wrapper__cards__paragraph {
-    font-style: normal;
-    font-size: 16px;
-    font-family: "Lato Regular";
-    font-weight: 400;
-    line-height: 1.7rem;
-    text-align: center;
-    color: #4e555e; }
+.contacto__card__wrapper {
+  background-color: #e0ebff;
+  padding-top: 90px;
+  padding-bottom: 50px; }
+  .contacto__card__wrapper__width {
+    width: 270px; }
+  .contacto__card__wrapper__cards {
+    height: 100%;
+    padding: 10px; }
+    @media (min-width: 992px) {
+      .contacto__card__wrapper__cards {
+        padding: 10px 30px 10px 30px; } }
+    .contacto__card__wrapper__cards__title {
+      color: #025ddc;
+      font-style: normal;
+      font-size: 1.4rem;
+      font-family: "Trocchi";
+      font-weight: 400;
+      text-align: left;
+      padding: 25pt 0 4pt;
+      text-align: center; }
+    .contacto__card__wrapper__cards__paragraph {
+      font-style: normal;
+      font-size: 16px;
+      font-family: "Lato Regular";
+      font-weight: 400;
+      line-height: 1.7rem;
+      text-align: center;
+      color: #4e555e; }
 
 .contacto__form {
   padding-bottom: 10px;

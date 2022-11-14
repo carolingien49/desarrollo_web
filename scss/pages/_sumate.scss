@@ -1,23 +1,17 @@
 /* Estilo PAGINA SUMATE */
 .contacto__main {
-  padding-top: 9vh;
-  background-color: #e0ebff;
-  @media (min-width: $sm-viewport) {
-    padding-top: 12vh;
-  }
-  @media (min-width: $lg-viewport) {
-    padding-top: 16vh;
-  }
+  background-color: white;
   &__title {
-    color: #025ddc;
+    color: $secondary;
     font-style: normal;
     font-size: 32px;
     font-family: "Trocchi";
-    width: 85vw;
+    width: 100%;
+    padding-top:20%;
   }
   &__paragraph {
-    color: #4e555e;
-    width: 79vw;
+    color: $gray-700;
+    width: 90%;
     max-width: 650px;
     font-style: normal;
     font-size: 1rem;
@@ -27,14 +21,20 @@
   }
 }
 .contacto__card__wrapper {
+  background-color: $pale-blue;
+  padding-top: 90px;
+  padding-bottom: 50px;
   &__width {
     width: 270px;
   }
   &__cards {
     height: 100%;
-    padding: 10px 30px 10px 30px;
+    padding: 10px;
+    @media (min-width: $lg-viewport) {
+      padding: 10px 30px 10px 30px;
+    }
     &__title {
-      color: #025ddc;
+      color: $secondary;
       font-style: normal;
       font-size: 1.4rem;
       font-family: "Trocchi";
@@ -50,7 +50,7 @@
       font-weight: 400;
       line-height: 1.7rem;
       text-align: center;
-      color: #4e555e;
+      color: $gray-700;
     }
   }
 }
@@ -81,7 +81,7 @@
     margin: 15px 0 3px 0;
     width: 80%;
     max-width: 350px;
-    color: #4e555e;
+    color: $gray-700;
     font-size: 13px;
     height: 30px;
     border: #b6d3fc solid 1px;
@@ -128,7 +128,7 @@
   margin: auto;
   padding: 40px 0 25px 0;
   &__title {
-    color: #104691;
+    color: $blue;
     font-style: normal;
     font-size: 20px;
     font-family: "Lato Regular";
