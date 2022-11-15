@@ -1,96 +1,115 @@
-.programas__main {
-  background-image: url(../img/corazon_en_manos_vertical_2.jpg);
-  background-repeat: no-repeat;
-  background-position-x: end;
-  background-position-y: top;
-  background-size: cover;
-  @media (min-width: $sm-viewport) {
-    background-image: url(../img/corazon_en_manos_intermedia.jpg);
+.programas {
+  &__main {
+    background-image: url(../img/corazon_en_manos_vertical_2.jpg);
+    background-repeat: no-repeat;
+    background-position-x: end;
     background-position-y: top;
-  }
-  @media (min-width: $lg-viewport) {
-    background-image: url(../img/corazon_en_manos.jpg);
-    background-position-y: center;
-  }
-  &__wrapper {
-    width: 85vw;
-    margin-left: 25pt;
-    padding-top: 130px;
-    padding-bottom: 40px;
-    @media (min-width: $md-viewport) {
-      margin-left: 45pt;
-      padding-top: 200px;
+    background-size: cover;
+    @media (min-width: $sm-viewport) {
+      background-image: url(../img/corazon_en_manos_intermedia.jpg);
+      background-position-y: top;
     }
     @media (min-width: $lg-viewport) {
-      margin-left: 45pt;
-      padding-top: 140px;
+      background-image: url(../img/corazon_en_manos.jpg);
+      background-position-y: center;
     }
-    &__title {
-      color: $secondary;
-      font-family: "Trocchi";
-      font-weight: normal;
-      font-size: 2.5rem;
-      line-height: 2.5rem;
-      padding-bottom: 30px;
-      padding-top: 120px;
+    &__wrapper {
+      width: 85vw;
+      margin-left: 25pt;
+      padding-top: 130px;
+      padding-bottom: 40px;
       @media (min-width: $md-viewport) {
+        margin-left: 45pt;
         padding-top: 200px;
-        max-width: 400px;
       }
       @media (min-width: $lg-viewport) {
-        padding-top: 0px;
+        margin-left: 45pt;
+        padding-top: 140px;
       }
-    }
-    &__text {
-      &--parragraph {
-        font-family: "Lato Regular";
+      &__title {
+        color: $secondary;
+        font-family: "Trocchi";
         font-weight: normal;
-        font-size: 1rem;
-        line-height: 1.5rem;
-        letter-spacing: 0.2px;
-        color: $gray-700;
-        max-width: 480px;
-        @media (min-width: $lg-viewport) {
-          max-width: 570px;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        padding-bottom: 30px;
+        padding-top: 120px;
+        @media (min-width: $md-viewport) {
+          padding-top: 200px;
+          max-width: 400px;
         }
-        @media (min-width: $xl-viewport) {
-          font-size: 1.1rem;
-          line-height: 1.7rem;
-          max-width: 650px;
+        @media (min-width: $lg-viewport) {
+          padding-top: 0px;
+        }
+      }
+      &__text {
+        &--parragraph {
+          font-family: "Lato Regular";
+          font-weight: normal;
+          font-size: 1rem;
+          line-height: 1.5rem;
+          letter-spacing: 0.2px;
+          color: $gray-700;
+          max-width: 480px;
+          @media (min-width: $lg-viewport) {
+            max-width: 570px;
+          }
+          @media (min-width: $xl-viewport) {
+            font-size: 1.1rem;
+            line-height: 1.7rem;
+            max-width: 650px;
+          }
         }
       }
     }
   }
-}
-.programas__section {
-  background-color: $beige;
-  &__wrapper {
-    width: 95vw;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    &__card {
-      background-color: white;
-      padding: 50px 30px;
-      width: auto;
-      width: 250px;
-      min-width: 170px;
-      height: 310px;
-      &-body i {
-        color: $secondary;
+  &__section {
+    background-color: $beige;
+    &__wrapper {
+      width: 95vw;
+      padding-top: 90px;
+      padding-bottom: 90px;
+      &__card {
+        background-color: white;
+        padding: 50px 30px;
+        width: auto;
+        width: 250px;
+        min-width: 170px;
+        height: 310px;
+        &-body i {
+          color: $secondary;
+        }
+        &-title {
+          color: $blue;
+        }
+        &-subtitle {
+          color: $gray-700;
+        }
+        &-text {
+          font-family: "Lato Regular";
+          font-weight: normal;
+          font-size: 1rem;
+          line-height: 1.5rem;
+          letter-spacing: 0.2px;
+          color: $gray-700;
+        }
       }
-      &-title {
-        color: $blue;
+    }
+  }
+  &__blog {
+    background-color: $beige;
+    &-title {
+      color: $secondary;
+    }
+    & .iframe {
+      margin-top: 30px;
+      width: 100%;
+      @media (min-width: $sm-viewport) {
+        width: 70%;
       }
-      &-subtitle {
-        color: $gray-700;
-      }
-      &-text {
-        font-family: "Lato Regular";
-        font-weight: normal;
-        font-size: 1rem;
-        line-height: 1.5rem;
-        letter-spacing: 0.2px;
-        color: $gray-700;
+      @media (min-width: $sm-viewport) {
+        width: 60%;
+        text-align: center;
       }
     }
   }

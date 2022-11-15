@@ -52,24 +52,38 @@
       text-align: center;
       color: $gray-700;
     }
+    &__link {
+    }
   }
-}
-.contacto__form {
-  padding-bottom: 10px;
-  padding-left: 5px;
 }
 .contacto__formulario {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 3%;
   margin: auto;
-  &__paragraph {
-    color: #1a66d0;
-    font-style: normal;
-    font-size: 16px;
-    font-family: "Trocchi";
-    line-height: 24px;
+  @media (min-width: $md-viewport) {
+    padding-left: 15%;
+    padding-right: 15%;
   }
+  @media (min-width: $lg-viewport) {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  &__wrapper {
+    &__paragraph {
+      color: #1a66d0;
+      font-style: normal;
+      font-size: 16px;
+      font-family: "Trocchi";
+      line-height: 24px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}
+.contacto__form {
+  padding-bottom: 10px;
+  padding-left: 5px;
   &__input {
     margin: 15px 0 3px 0;
     color: $gray-700;
@@ -93,17 +107,20 @@
     padding-left: 5px;
   }
   &-btn {
-    background-color: #b6d3fc;
+    background-color: $pale-blue;
     width: 80px;
     height: 30px;
     border-radius: 18px;
     border: none;
-    margin: 20px 25px 30px 0;
     color: $secondary;
     font-family: "Lato Regular";
     font-weight: 400;
     letter-spacing: 0.3px;
     font-size: 16px;
+    margin-left: 20px;
+    &:hover {
+      background-color: $light;
+    }
   }
 }
 .nos__apoyan {
