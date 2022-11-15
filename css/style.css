@@ -9149,16 +9149,6 @@ p {
   background-color: #efefed; }
   .programas__blog-title {
     color: #025ddc; }
-  .programas__blog .iframe {
-    margin-top: 30px;
-    width: 100%; }
-    @media (min-width: 576px) {
-      .programas__blog .iframe {
-        width: 70%; } }
-    @media (min-width: 576px) {
-      .programas__blog .iframe {
-        width: 60%;
-        text-align: center; } }
 
 .card-link {
   display: inline-block;

@@ -101,17 +101,6 @@
     &-title {
       color: $secondary;
     }
-    & .iframe {
-      margin-top: 30px;
-      width: 100%;
-      @media (min-width: $sm-viewport) {
-        width: 70%;
-      }
-      @media (min-width: $sm-viewport) {
-        width: 60%;
-        text-align: center;
-      }
-    }
   }
 }
 .card-link {
