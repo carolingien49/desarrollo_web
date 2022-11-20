@@ -8934,7 +8934,7 @@ p {
       background-image: url(../img/choquemos_los_5_vertical.webp);
       background-position-x: center;
       background-position-x: top;
-      height: 110vh; } }
+      height: auto; } }
   @media (min-width: 992px) {
     .equipo__main {
       background-image: url(../img/choquemos_los_5.jpg);
