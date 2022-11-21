@@ -8933,14 +8933,15 @@ p {
     .equipo__main {
       background-image: url(../img/choquemos_los_5_vertical.webp);
       background-position-x: center;
-      background-position-x: top;
-      height: auto; } }
+      background-position-y: top;
+      height: 110vh; } }
   @media (min-width: 992px) {
     .equipo__main {
       background-image: url(../img/choquemos_los_5.jpg);
-      background-position-y: center;
       background-position-x: center;
-      height: 60vh; } }
+      background-position-y: center;
+      height: 60vh;
+      min-height: 600px; } }
   .equipo__main__wrapper {
     width: 84vw;
     margin-top: 10px;
